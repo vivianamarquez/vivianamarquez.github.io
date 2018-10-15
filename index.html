@@ -5,6 +5,32 @@ bigimg:
   - 'img/sfggb.jpg'
 use-site-title: true
 ---
+<!-- Typed.js --> 
+<script src="/js/jquery-1.11.2.min.js"></script>
+<script src="/js/typed.js" type="text/javascript"></script>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["mathematician.", "journalist.", "data scientist.", "media producer."],
+      typeSpeed: 85,
+      loop: true,
+      backDelay: 1000
+    });
+  });
+</script>
+
+<div class="typed-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+          <h1>I am a <span class="typed" style="color:#f70097";></span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- site body (untouched)--> 
 
 <div class="posts-list">
   {% for post in paginator.posts %}
