@@ -67,4 +67,10 @@ subtitle: A list with some of my publications in different blogs
 * [¿En qué se parecen el periodismo deportivo y el periodismo científico en Colombia?](https://semillas.konradlorenz.edu.co/2017/09/en-qu%C3%A9-se-parecen-el-periodismo-deportivo-y-el-periodismo-cient%C3%ADfico-en-colombia-i-encuentro-colombi.html)
 * [Konradio es nuestra emisora](http://ukonradlorenz.tumblr.com/post/76362652514/konradio-es-nuestra-emisora#.W9qBdXpKiMJ)
 
-* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): Experiencia de intercambio en Brasil y Rusia como estudiante de pregrado de matemáticas.
+--
+
+* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
+
+--
+
+* [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
