@@ -35,23 +35,23 @@ subtitle: A list with some of my lecture notes
 
 ###### Homework
 
-* [Combinatoria_Tarea_8.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_8.pdf)
-* [Combinatoria_Tarea_7.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_7.pdf)
-* [Combinatoria_Tarea_6.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_6.pdf)
-* [Combinatoria_Tarea_5.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_5.pdf)
-* [Combinatoria_Tarea_4.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_4.pdf)
-* [Combinatoria_Tarea_3.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_3.pdf)
-* [Combinatoria_Tarea_2.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_2.pdf)
-* [Combinatoria_Tarea_1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_1.pdf)
+* [Combinatoria_Tarea_8.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_8.pdf)
+* [Combinatoria_Tarea_7.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_7.pdf)
+* [Combinatoria_Tarea_6.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_6.pdf)
+* [Combinatoria_Tarea_5.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_5.pdf)
+* [Combinatoria_Tarea_4.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_4.pdf)
+* [Combinatoria_Tarea_3.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_3.pdf)
+* [Combinatoria_Tarea_2.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_2.pdf)
+* [Combinatoria_Tarea_1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Tareas/Combinatoria_Tarea_1.pdf)
 
 ###### Other
 
-* [Parcial1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Parcial1.pdf)
-* [BD Beamer.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/BD%20Beamer.pdf)
+* [Parcial1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Parcial1.pdf)
+* [BD Beamer.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/BD%20Beamer.pdf)
 
 
 #### Miscellaneous
 
-* [Gamma function.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Gamma%20function.pdf)
-* [Advanced Linear Algebra HW10.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Miscellaneous/Advanced%20Linear%20Algebra%20HW10.pdf)
-* [Gráficas de Fichas.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Miscellaneous/Gráficas%20de%20Fichas.pdf)
+* [Gamma function.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Gamma%20function.pdf)
+* [Advanced Linear Algebra HW10.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Miscellaneous/Advanced%20Linear%20Algebra%20HW10.pdf)
+* [Gráficas de Fichas.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Miscellaneous/Gráficas%20de%20Fichas.pdf)
