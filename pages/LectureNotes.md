@@ -23,15 +23,15 @@ subtitle: A list with some of my lecture notes
 
 ###### Notes
 
-* [Combinatoria_Apuntes_10.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_10.pdf)
-* [Combinatoria_Apuntes_9.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_9.pdf)
-* [Combinatoria_Apuntes_8.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_8.pdf)
-* [Combinatoria_Apuntes_7.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_7.pdf)
-* [Combinatoria_Apuntes_5.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_5.pdf)
-* [Combinatoria_Apuntes_4.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_4.pdf)
-* [Combinatoria_Apuntes_3.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_3.pdf)
-* [Combinatoria_Apuntes_2.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_2.pdf)
-* [Combinatoria_Apuntes_1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_1.pdf)
+* [Combinatoria_Apuntes_10.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_10.pdf)
+* [Combinatoria_Apuntes_9.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_9.pdf)
+* [Combinatoria_Apuntes_8.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_8.pdf)
+* [Combinatoria_Apuntes_7.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_7.pdf)
+* [Combinatoria_Apuntes_5.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_5.pdf)
+* [Combinatoria_Apuntes_4.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_4.pdf)
+* [Combinatoria_Apuntes_3.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_3.pdf)
+* [Combinatoria_Apuntes_2.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_2.pdf)
+* [Combinatoria_Apuntes_1.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Combinatoria/Apuntes/Combinatoria_Apuntes_1.pdf)
 
 ###### Homework
 
