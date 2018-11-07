@@ -52,6 +52,6 @@ subtitle: A list with some of my lecture notes
 
 #### Miscellaneous
 
-* [Gamma function.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Gamma%20function.pdf)
+* [Gamma function.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Miscellaneous/Gamma%20function.pdf)
 * [Advanced Linear Algebra HW10.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Miscellaneous/Advanced%20Linear%20Algebra%20HW10.pdf)
 * [Gráficas de Fichas.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/Math-Undergrad-Lecture-Notes/blob/master/Miscellaneous/Gráficas%20de%20Fichas.pdf)
