@@ -29,6 +29,7 @@ navbar-links:
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
   MY RESUME: "https://vivianamarquez.github.io/online-cv/"
+  Science Posts: "http://vivianamarquez.com/pages/SciencePosts/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
