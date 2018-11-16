@@ -4,6 +4,8 @@ title: Posts about Science
 subtitle: A list with some of my publications in different blogs
 ---
 
+<br>
+
 * [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
 * [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
 
