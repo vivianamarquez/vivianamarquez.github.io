@@ -4,6 +4,16 @@ title: Posts about Science
 subtitle: A list with some of my publications in different blogs
 ---
 
+
+* [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
+
+--
+
+* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
+
+--
+
+
 ## Mathematics 
 
 #### Mathematical Concepts 
@@ -62,15 +72,7 @@ subtitle: A list with some of my publications in different blogs
 * [Astronomy Music Awards](https://astronomia.konradlorenz.edu.co/2017/05/astronomy-music-awards.html)
 * [La astronomía en la obra de Gabriel García Márquez](https://astronomia.konradlorenz.edu.co/2015/10/la-astronom%C3%ADa-en-la-obra-de-garc%C3%ADa-m%C3%A1rquez.html)
 
-## Academic Life
+## Science Journalism
 
 * [¿En qué se parecen el periodismo deportivo y el periodismo científico en Colombia?](https://semillas.konradlorenz.edu.co/2017/09/en-qu%C3%A9-se-parecen-el-periodismo-deportivo-y-el-periodismo-cient%C3%ADfico-en-colombia-i-encuentro-colombi.html)
 * [Konradio es nuestra emisora](http://ukonradlorenz.tumblr.com/post/76362652514/konradio-es-nuestra-emisora#.W9qBdXpKiMJ)
-
---
-
-* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
-
---
-
-* [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
