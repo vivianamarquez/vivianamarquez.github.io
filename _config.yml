@@ -73,7 +73,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: false
-#  email: "vivianamarquez@live.com"
+  email: "vivianamarquez@live.com"
 # facebook: daattali
 #  github: vivianamarquez
 #  twitter: vivmarquez
