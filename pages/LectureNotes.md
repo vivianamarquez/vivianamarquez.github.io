@@ -4,6 +4,8 @@ title: Lecture Notes
 subtitle: A list with some of my lecture notes
 ---
 
+<meta name="description" content="A list with some of my lecture notes - Combinatoria, Time Series Analysis">
+
 ## Data Science 
 
 #### Time Series Analysis
