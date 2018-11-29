@@ -11,6 +11,7 @@ subtitle: A list with some of my lecture notes
 
 #### Time Series Analysis
 
+* [Note Nov 29, 2018.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Time%20Series%20Analysis/Note%20Nov%2029%2C%202018.pdf)
 * [Note Nov 27, 2018.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Time%20Series%20Analysis/Note%20Nov%2027%2C%202018.pdf)
 * [Note Nov 15, 2018.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Time%20Series%20Analysis/Note%20Nov%2015%2C%202018.pdf)
 * [Note Nov 13, 2018.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Time%20Series%20Analysis/Note%20Nov%2013%2C%202018.pdf)
