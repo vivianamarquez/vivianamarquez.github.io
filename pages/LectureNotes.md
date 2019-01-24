@@ -9,6 +9,11 @@ subtitle: A list with some of my lecture notes
 
 ## Data Science 
 
+#### Computational Statistics
+
+* [Note Jan 24, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2024%2C%202019.pdf)
+* [Note Jan 22, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2022%2C%202019.pdf)
+
 #### Time Series Analysis
 
 * [Note Dec 4, 2018.pdf](http://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Time%20Series%20Analysis/Note%20Dec%204%2C%202018.pdf)
