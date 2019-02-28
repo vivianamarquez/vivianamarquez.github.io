@@ -11,6 +11,7 @@ subtitle: A list with some of my lecture notes
 
 #### Computational Statistics
 
+* [Note Feb 28, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2028%2C%202019.pdf)
 * [Note Feb 26, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2026%2C%202019.pdf)
 * [Note Feb 21, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2021%2C%202019.pdf)
 * [Note Feb 19, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2019%2C%202019.pdf)
