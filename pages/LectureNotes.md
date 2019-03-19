@@ -9,6 +9,10 @@ subtitle: A list with some of my lecture notes
 
 ## Data Science 
 
+#### Experiments in Data Science
+
+* [Note Mar 19, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Experiments%20in%20Data%20Science/Note%20Mar%2019%2C%202019.pdf)
+
 #### Computational Statistics
 
 * [Note Mar 7, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Mar%207%2C%202019.pdf)
