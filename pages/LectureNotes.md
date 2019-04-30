@@ -11,6 +11,7 @@ subtitle: A list with some of my lecture notes
 
 #### Experiments in Data Science
 
+* [Note Apr 30, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Experiments%20in%20Data%20Science/Note%20Apr%2030%2C%202019.pdf)
 * [Note Apr 25, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Experiments%20in%20Data%20Science/Note%20Apr%2025%2C%202019.pdf)
 * [Note Apr 23, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Experiments%20in%20Data%20Science/Note%20Apr%2023%2C%202019.pdf)
 * [Note Apr 18, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Experiments%20in%20Data%20Science/Note%20Apr%2018%2C%202019.pdf)
