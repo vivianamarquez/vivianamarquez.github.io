@@ -7,6 +7,23 @@ subtitle: A list with some of my lecture notes
 <meta name="description" content="A list with some of my lecture notes from Mathematics and Data Science">
 <meta name="keywords" content="Class Notes, Homework, Mathematics, Data Science, Time Series Analysis, Combinatoria, Teoría de Graficas, Gamma Function">
 
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
 ## Data Science 
 
 #### Experiments in Data Science
@@ -27,6 +44,9 @@ subtitle: A list with some of my lecture notes
 
 #### Computational Statistics
 
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+
 * [Note Mar 7, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Mar%207%2C%202019.pdf)
 * [Note Feb 28, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2028%2C%202019.pdf)
 * [Note Feb 26, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2026%2C%202019.pdf)
@@ -40,6 +60,8 @@ subtitle: A list with some of my lecture notes
 * [Note Jan 31, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2031%2C%202019_2.pdf)
 * [Note Jan 24, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2024%2C%202019.pdf)
 * [Note Jan 22, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2022%2C%202019.pdf)
+
+</div>
 
 #### Time Series Analysis
 
