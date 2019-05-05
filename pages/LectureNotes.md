@@ -7,28 +7,6 @@ subtitle: A list with some of my lecture notes
 <meta name="description" content="A list with some of my lecture notes from Mathematics and Data Science">
 <meta name="keywords" content="Class Notes, Homework, Mathematics, Data Science, Time Series Analysis, Combinatoria, Teoría de Graficas, Gamma Function">
 
-<script>
-  var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-<button class="collapsible">Open Collapsible</button>
-<div class="content">
-  Example
-</div>
-
 ## Data Science 
 
 #### Experiments in Data Science
