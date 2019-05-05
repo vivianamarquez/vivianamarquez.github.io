@@ -24,6 +24,11 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+  Example
+</div>
+
 ## Data Science 
 
 #### Experiments in Data Science
@@ -44,9 +49,6 @@ for (i = 0; i < coll.length; i++) {
 
 #### Computational Statistics
 
-<button class="collapsible">Open Collapsible</button>
-<div class="content">
-
 * [Note Mar 7, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Mar%207%2C%202019.pdf)
 * [Note Feb 28, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2028%2C%202019.pdf)
 * [Note Feb 26, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Feb%2026%2C%202019.pdf)
@@ -60,8 +62,6 @@ for (i = 0; i < coll.length; i++) {
 * [Note Jan 31, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2031%2C%202019_2.pdf)
 * [Note Jan 24, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2024%2C%202019.pdf)
 * [Note Jan 22, 2019.pdf](https://nbviewer.jupyter.org/github/vivianamarquez/MSDS-Lecture-Notes/blob/master/Computational%20Statistics/Note%20Jan%2022%2C%202019.pdf)
-
-</div>
 
 #### Time Series Analysis
 
