@@ -9,6 +9,15 @@ subtitle: A list with some of my publications in different blogs
 * [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
 * [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
 
+## Science
+I have translated the following articles from Russian to Spanish for [nmas1.org](https://nmas1.org/), a science and technology magazine for Latin America based in California.
+* [Se vende tu ADN](https://nmas1.org/material/2019/05/13/se-vende-adn)
+* [El ‘deep fake’ nuevamente hace de las suyas: ahora manipula un partido de tenis](https://nmas1.org/news/2019/04/23/deepfake)
+* [Dinero sin árbitro - Bitcoins & Blockchains](https://nmas1.org/material/2019/05/06/bitcoin-historia)
+* [¿Un terabyte es mucho o poco?](https://nmas1.org/material/2019/03/13/terabyte-tamano)
+* [Cómo encontrar el mayor número primo conocido](https://nmas1.org/material/2019/03/10/mayor-primo)
+* [¿Eres lo suficientemente astuto para pasar esta prueba?](https://nmas1.org/material/2019/03/03/Yeezy-matematicas)
+* [Colorear para matemáticos](https://nmas1.org/material/2019/02/11/colores-matematicos)
 
 ## Mathematics 
 
