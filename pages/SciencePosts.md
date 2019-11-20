@@ -13,6 +13,7 @@ subtitle: A list with some of my publications in different blogs
 
 #### N + 1 
 I have translated the following articles from Russian to Spanish for [nmas1.org](https://nmas1.org/), a science and technology magazine for Latin America based in California.
+* [De bellezas a monstruos](https://nmas1.org/material/2019/06/03/formulas-belleza)
 * [Se vende tu ADN](https://nmas1.org/material/2019/05/13/se-vende-adn)
 * [El ‘deep fake’ nuevamente hace de las suyas: ahora manipula un partido de tenis](https://nmas1.org/news/2019/04/23/deepfake)
 * [Dinero sin árbitro - Bitcoins & Blockchains](https://nmas1.org/material/2019/05/06/bitcoin-historia)
