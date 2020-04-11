@@ -6,8 +6,11 @@ subtitle: A list with some of my publications in different blogs
 
 <br>
 
+* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My undergraduate experience studying abroad in Brazil and Russia.
+
+## Data Science
+
 * [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
-* [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My experience as an exchange student in Brazil and Russia.
 
 ## Science Journalism
 
