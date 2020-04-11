@@ -4,8 +4,6 @@ title: Posts about Science
 subtitle: A list with some of my publications in different blogs
 ---
 
-<br>
-
 * [BLOG CAMINOS](https://caminos.konradlorenz.edu.co/): My undergraduate experience studying abroad in Brazil and Russia.
 
 ## Data Science
