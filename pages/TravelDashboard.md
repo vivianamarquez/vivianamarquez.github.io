@@ -9,7 +9,7 @@ title: Travel Dashboard
 
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
   <div align="center">(Updated on April 2020)
-  <br>
+  <br><br>
   Traveling is one of my passions. Here's a quick dashboard.</div>
 </div>
 <br>
