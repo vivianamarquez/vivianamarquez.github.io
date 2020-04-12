@@ -7,4 +7,4 @@ Traveling is one of my passions, so here is the public version of the Tableau da
 
 <br>
 
-<center><iframe src="https://public.tableau.com/views/Book3_15866483987300/VivsFlights?:showVizHome=no&:embed=true" width="1000" height="500"></iframe></center>
+<center><iframe src="https://public.tableau.com/views/Book3_15866483987300/VivsFlights?:showVizHome=no&:embed=true" width="2000" height="2000"></iframe></center>
