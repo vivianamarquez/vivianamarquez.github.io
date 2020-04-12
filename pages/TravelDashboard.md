@@ -3,7 +3,7 @@ layout: minimal
 title: Travel Dashboard
 ---
 
-Traveling is one of my passions, so here is the public version of the Tableau dashboard I built with my traveling data. I'll eventually move this dashboard to a different tool since Tableau doesn't let me customize it as much as I want (and the free public version looks funny). 
+Traveling is one of my passions, so here is the public version of the Tableau dashboard I built with my traveling data. I'll eventually move this dashboard to a different tool since Tableau doesn't let me customize it as much as I want (and the free public version looks funny). :)
 
 <br>
 
