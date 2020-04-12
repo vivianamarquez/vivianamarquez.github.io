@@ -9,8 +9,8 @@ title: Travel Dashboard
 
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
   <div align="center">(Updated on April 2020)</div>
-  <br><br> 
-  <p><div style="font-size:50%">Traveling is one of my passions, so here is the public version of the Tableau dashboard I built with my traveling data. I'll eventually move this dashboard to a different tool since Tableau doesn't let me customize it as much as I want (and the free public version looks funny).</div></p>
+  <br>
+  <p><div style="font-size:80%">Traveling is one of my passions, so here is the public version of the Tableau dashboard I built with my traveling data. I'll eventually move this dashboard to a different tool since Tableau doesn't let me customize it as much as I want (and the free public version looks funny).</div></p>
 </div>
 <br>
 <br>
