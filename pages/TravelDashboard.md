@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: base
 title: Travel Dashboard
 ---
 
