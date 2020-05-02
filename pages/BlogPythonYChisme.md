@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Travel Dashboard
+title: Chisme y Python
 ---
 
 # Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga
