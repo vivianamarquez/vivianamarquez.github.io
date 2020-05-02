@@ -1,3 +1,8 @@
+---
+layout: post
+title: Travel Dashboard
+---
+
 # Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga
 
 *Publicado el 27 de abril de 2020*
