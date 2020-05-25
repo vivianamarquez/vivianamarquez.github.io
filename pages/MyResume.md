@@ -7,7 +7,7 @@ title: This is me :)
 <meta name="keywords" content="Viviana Márquez Data Scientist Miami FL Mathematics Combinatorics">
 
 <center>
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=RVDwDEImn_g)
+[![Watch the video](https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/pages/VideoPreview.png?raw=true)](https://www.youtube.com/watch?v=RVDwDEImn_g)
 </center>
 
 It's hard to make a whole life fit into a single-page-resume, specially for someone like me that has so many interests. 
