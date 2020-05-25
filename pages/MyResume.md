@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Viviana Márquez | Resume
+title: This is me :) 
 ---
 
 <meta name="description" content="Viviana Márquez | Resume">
@@ -9,11 +9,9 @@ title: Viviana Márquez | Resume
 ##
 
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=RVDwDEImn_g">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=RVDwDEImn_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 It's hard to make a whole life fit into a single resume, specially for someone like me that has so many interests. 
 
-- If you're a Data Science (or related field) recruiter, click here.
-- If you want to learn more about me and my path as a mathematician, click here. 
+- If you're a Data Science (or related field) Recruiter, click <a href="https://drive.google.com/file/d/1QgwBhK_-UvXeh6Eh6zUdyWZLMGvwo-Ip/view?usp=sharing" target="_blank">here</a>.
+- If you want to learn more about me and my path as a mathematician, click <a href="https://drive.google.com/file/d/1G-rjH2BUk87h9XCPsDtr4RCxtrYmOF0S/view?usp=sharing" target="_blank">here</a>. 
