@@ -6,10 +6,9 @@ title: This is me :)
 <meta name="description" content="Viviana Márquez | Resume">
 <meta name="keywords" content="Viviana Márquez Data Scientist Miami FL Mathematics Combinatorics">
 
-##
-
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=RVDwDEImn_g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
 
 It's hard to make a whole life fit into a single resume, specially for someone like me that has so many interests. 
 
