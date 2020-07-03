@@ -6,8 +6,6 @@ title: This is me :)
 <meta name="description" content="Viviana Márquez | Resume">
 <meta name="keywords" content="Viviana Márquez Data Scientist Miami FL Mathematics Combinatorics">
 
-[![Viviana Márquez](https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/pages/VideoPreview.png?raw=true)](https://www.youtube.com/watch?v=RVDwDEImn_g "Viviana Márquez")
-
 It's hard to make a whole life fit into a single-page-resume, specially for someone like me that has so many interests. 
 
 - If you're a Data Science (or related field) Recruiter, click <a href="https://drive.google.com/file/d/1QgwBhK_-UvXeh6Eh6zUdyWZLMGvwo-Ip/view?usp=sharing" target="_blank">here</a>.
