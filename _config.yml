@@ -29,9 +29,7 @@ navbar-links:
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
   MY RESUME: "http://vivianamarquez.com/pages/MyResume/"
-  Science Posts: "http://vivianamarquez.com/pages/SciencePosts/"
-  Lecture Notes: "http://vivianamarquez.com/pages/LectureNotes/"
-  Travel Dashboard: "http://vivianamarquez.com/pages/TravelDashboard/"
+  More: "http://vivianamarquez.com/pages/More/"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
