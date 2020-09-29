@@ -1,7 +1,7 @@
 ---
 layout: page
 title: More
-subtitle: Check out some of my works!
+subtitle: Check out some of my work!
 ---
 
 <meta name="description" content="Viviana Márquez | Projects">
