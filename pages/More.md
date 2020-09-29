@@ -26,3 +26,8 @@ subtitle: Check out some of my works!
 * [Determine the day of the week](http://vivianamarquez.com/Determine-Day-of-the-Week/#/)
 * [K-Means in Spanish](http://vivianamarquez.com/Python-KL-July2020/#/)
 
+## [GitHub](https://github.com/vivianamarquez)
+Don't forget to visit my GitHub to see all my code!
+
+## [YouTube](https://www.youtube.com/user/vivmarquez)
+Check my YouTube for fun data science videos!
