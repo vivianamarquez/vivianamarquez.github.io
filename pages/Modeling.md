@@ -32,17 +32,19 @@ Experience: <br>
 • Traductora (inglés/portugués) del conferencista principal del XVI Encuentro Nacional de Astronomía (Aug 2015)<br>
 • Clausura de fin de año de la academia Sueños en Escena (Dec 2013)<br>
 
-# Social media influencer
-Experience: <br>
-• YouTube: <br>
-&nbsp;&nbsp;- Creación, dirección, producción, edición y actuación de una mini serie de tres capítulos. <br>
-&nbsp;&nbsp;- Videos sobre ciencia de datos de una manera divertida<br>
-• Instagram: I promote products on my IG. Send me an email if you want more information. <br>
-• Adicionalmente, soy creadora de contenidos (tengo experiencia como copy, SEO, community manager) y hago edición de videos (Adobe Premiere y Final Cut Studio)
-
 # Actress
 Experience: <br>
 • Estudiante de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
+
+# Social Media Influencer
+Experience: <br>
+• YouTube: Videos sobre ciencia de datos de una manera divertida<br>
+• Instagram: I promote products on my IG. Send me an email if you want more information. <br>
+
+# Content Creator
+<br>
+• YouTube: Creación, dirección, producción, edición y actuación de una mini serie de tres capítulos. <br>
+• Adicionalmente, soy creadora de contenidos (tengo experiencia como copy, SEO, community manager) y hago edición de videos (Adobe Premiere y Final Cut Studio)
 
 # Languages
 • Fluent: Spanish (Colombian accent), English and Portuguese (both with an accent)<br>
