@@ -8,6 +8,8 @@ title: Modeling Portafolio
 
 <center>📍 Currently located in Miami, FL. </center>
 
+<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='//https://www.youtube.com/watch?v=RVDwDEImn_g' frameborder='0' scrolling='no' allowtransparency='true'></iframe></div>
+
 # Model
 <style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='//instagram.com/p/CIgHlJFgge-/embed/' frameborder='0' scrolling='no' allowtransparency='true'></iframe></div>
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
