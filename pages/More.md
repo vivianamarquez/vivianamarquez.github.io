@@ -25,4 +25,4 @@ subtitle: Check out some of my work!
 Don't forget to visit my GitHub to see all my code!
 
 ## [YouTube](https://www.youtube.com/user/vivmarquez)
-Check my YouTube for fun data science videos!
+Check my YouTube for fun life vlogs and data science videos!
