@@ -21,11 +21,6 @@ subtitle: Check out some of my work!
 * [Slack Reactions dashboard](https://msds2019.herokuapp.com/): MSDS Cohort #7 was a crazy one and this dashboard about their Slack conversations shows it (give it a few seconds to load, it's running on free Dynos).
 * [Travel Dashboard](http://vivianamarquez.com/pages/TravelDashboard/): I am passionate about traveling, so I created my own travel dashboard using Tableau.
 
-## Python Slides
-
-* [Determine the day of the week](http://vivianamarquez.com/Determine-Day-of-the-Week/#/)
-* [K-Means in Spanish](http://vivianamarquez.com/Python-KL-July2020/#/)
-
 ## [GitHub](https://github.com/vivianamarquez)
 Don't forget to visit my GitHub to see all my code!
 
