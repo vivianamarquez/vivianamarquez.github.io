@@ -9,13 +9,13 @@ title: Modeling Portafolio
 <center>📍 Currently located in Miami, FL. </center>
 
 # Model
-Height: 5'9 | Eyes: Green | Hair: Brown <br>
+Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
 Experience: House of Top Models in Miami, FL. (Nov 2020 - Actual)
 
 # TV host
 Experience: <br>
-• Presentadora de "Tendencias Faranduleras" en el programa SomosRD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
-• Presentadora de los Premios TV y Novelas en el canal Telepacífico (Abr 2016)
+• Presentadora de "Tendencias Faranduleras" en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
+• Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
 Experience: <br>
@@ -23,16 +23,27 @@ Experience: <br>
 • La Voz del Derecho - Online radio station (Jul 2013 - Nov 2013)<br>
 • WPSP Radio 1190 AM West Palm Beach, FL (Nov 2010 - Jul 2013)
 
+# Master of Ceremonies
+Experience: <br>
+• Una noche de astronomía (Dec 2019)<br>
+• Seminario de inducción para la creación y ampliación de instituciones educativas por la Secretaría de Educación del Distrito (Jun 2018)<br>
+• Ceremonias de grados del Colegio Superior de Telecomunicaciones (2014-2017)<br>
+• Astronomy on Tap Bogotá (Oct 2017)<br>
+• Traductora (inglés/portugués) del conferencista principal del XVI Encuentro Nacional de Astronomía (Aug 2015)<br>
+• Clausura de fin de año de la academia Sueños en Escena (Dec 2013)<br>
+
+# Social media influencer
+Experience: <br>
+• YouTube: <br>
+&nbsp;&nbsp;- Creación, dirección, producción, edición y actuación de una mini serie de tres capítulos. <br>
+&nbsp;&nbsp;- Videos sobre ciencia de datos de una manera divertida<br>
+• Instagram: I promote products on my IG. Send me an email if you want more information. <br>
+• Adicionalmente, soy creadora de contenidos (tengo experiencia como copy, SEO, community manager) y hago edición de videos (Adobe Premiere y Final Cut Studio)
+
 # Actress
 Experience: <br>
 • Estudiante de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
 
-# Social media influencer
-
-# Master of Ceremonies
-Experience: <br>
-• 
-
 # Languages
-• Fluent: Spanish (Colombian accent), English and Portuguese (both with an accent)
+• Fluent: Spanish (Colombian accent), English and Portuguese (both with an accent)<br>
 • Learning: Russian and French
