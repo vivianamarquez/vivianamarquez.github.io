@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Resume
+title: Resume
 ---
 
 <meta name="description" content="Viviana Márquez | Resume">
