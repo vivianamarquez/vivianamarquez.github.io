@@ -6,6 +6,11 @@ title: Modeling Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
 
+<style>.embed-container {position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class='embed-container'>
+  <iframe src='https://www.youtube.com/watch?v=RR9QaBRAHvM/embed/' frameborder='0' allowfullscreen></iframe>
+</div>
+
 <center>
   ![original](https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00001.png?raw=true){:width="100px"}
 <img src='' height='100>
