@@ -6,10 +6,10 @@ title: Modeling Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
-  <center>
+  
   ![viviana-marquez-01](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00001.png){:height="350px"}
   ![viviana-marquez-02](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00002.png){:height="350px"}
-  </center>
+  
 
 
 <center>📍 Currently located in Miami, FL. </center>
