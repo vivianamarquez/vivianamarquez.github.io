@@ -26,7 +26,7 @@ Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
 
 # TV host
 Experience: <br>
-• Presentadora de <a href='https://youtu.be/RR9QaBRAHvM?t=195', target="_blank">Tendencias Faranduleras</a> en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
+• Presentadora de <a href='https://youtu.be/RR9QaBRAHvM?t=195', target='_blank'>Tendencias Faranduleras</a> en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
 • Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
@@ -54,9 +54,8 @@ Experience: <br>
 • Instagram: I promote products on my IG. Send me an email if you want more information. <br>
 
 # Content Creator
-<br>
-• YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>mini serie</a> de tres capítulos. <br>
-• Adicionalmente, soy creadora de contenidos (tengo experiencia como copy, SEO, community manager) y hago edición de videos (Adobe Premiere y Final Cut Studio)
+• YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>mini serie</a> de tres capítulos<br>
+• Soy creadora de contenidos (tengo experiencia como copy, CM, SEO) y hago edición de videos (Adobe Premiere y Final Cut Studio)
 
 # Languages
 • Fluent: Spanish (Colombian accent), English and Portuguese (both with an accent)<br>
