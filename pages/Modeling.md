@@ -6,7 +6,7 @@ title: Modeling Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
 
-<center>
+
   
   ![image-title-here](test.png)
   
@@ -14,7 +14,7 @@ title: Modeling Portafolio
 <img src='https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00001.png' height=550'>
 
 <img src='https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00003.png' height='550'>
-</center>
+
 
 <center>📍 Currently located in Miami, FL. </center>
 
