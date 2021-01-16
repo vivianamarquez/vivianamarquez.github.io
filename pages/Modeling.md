@@ -8,7 +8,7 @@ title: Modeling Portafolio
 
 <style>.embed-container {position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 <div class='embed-container'>
-  <iframe src='https://www.youtube.com/watch?v=RR9QaBRAHvM/embed/' frameborder='0' allowfullscreen></iframe>
+  <iframe src='https://www.youtube.com/watch?v=RVDwDEImn_g/embed/' frameborder='0' allowfullscreen></iframe>
 </div>
 
 <center>
@@ -20,7 +20,7 @@ title: Modeling Portafolio
 <center>📍 Currently located in Miami, FL. </center>
 
 # Model
-<style>.embed-container {position: relative; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; height: 80%; }</style><div class='embed-container'><iframe src='//instagram.com/p/CIgHlJFgge-/embed/' frameborder='0' scrolling='no' allowtransparency='true'></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 90%; }</style><div class='embed-container'><iframe src='//instagram.com/p/CIgHlJFgge-/embed/' frameborder='0' scrolling='no' allowtransparency='true'></iframe></div>
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
 Experience: House of Top Models in Miami, FL. (Nov 2020 - Actual)
 
