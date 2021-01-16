@@ -18,7 +18,7 @@ Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
 
 # TV host
 Experience: <br>
-• Presentadora de <a href='https://youtu.be/RR9QaBRAHvM?t=195', target='_blank'>Tendencias Faranduleras</a> en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
+• Presentadora de <a href='https://youtu.be/RR9QaBRAHvM?t=195' target='_blank'>Tendencias Faranduleras</a> en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
 • Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
