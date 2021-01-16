@@ -6,11 +6,9 @@ title: Modeling Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
-  {% include carousel.html height="50" unit="%" duration="7" %}
   
-  
-  ![viviana-marquez-01](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00001.png){:class="img-responsive"}
-  ![viviana-marquez-02](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00002.png){:class="img-responsive"}
+  ![viviana-marquez-01](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00001.png){:height="350px"}
+  ![viviana-marquez-02](viviana_marquez_influencer_modelo_presentadora_tvhost_radio_host_colombiana_miami00002.png){:height="350px"}
   
 
 
