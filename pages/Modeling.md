@@ -9,6 +9,8 @@ title: Modeling Portafolio
 
   
   ![image-title-here](test.png)
+   ![image-title-her2e](img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00003.png)
+   ![image-title-her22e](img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00001.png)
   
   
 <img src='https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/img/viviana%20ma%CC%81rquez%20modelo%20presentadora%20tv%20host%20radio%20host%20MC%20influencer%20colombiana%20miami00001.png' height=550'>
@@ -20,7 +22,7 @@ title: Modeling Portafolio
 
 # Model
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
-Experience: <a href='https://www.instagram.com/p/CIgHlJFgge-/' target="_blank">House of Top Models in Miami, FL</a>. (Nov 2020 - Actual)
+<a href='https://www.instagram.com/p/CIgHlJFgge-/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Actual)
 
 # TV host
 Experience: <br>
