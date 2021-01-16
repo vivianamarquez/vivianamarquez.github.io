@@ -24,11 +24,11 @@ Experience: <a href='https://www.instagram.com/p/CIgHlJFgge-/' target="_blank">H
 
 # TV host
 Experience: <br>
-• Presentadora de "Tendencias Faranduleras" en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
+• Presentadora de "<a href='https://youtu.be/RR9QaBRAHvM?t=195', target="_blank">Tendencias Faranduleras</a>" en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
 • Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
-Experience: <br>
+Experience: (Demo <a href='https://www.youtube.com/watch?v=VpZX2sHz5oY' target="_blank">here</a>.)<br>
 • Konradio.co - Online radio station (Jul 2013 - Jan 2015)<br>
 • La Voz del Derecho - Online radio station (Jul 2013 - Nov 2013)<br>
 • WPSP Radio 1190 AM West Palm Beach, FL (Nov 2010 - Jul 2013)
