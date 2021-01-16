@@ -28,7 +28,7 @@ Experience: <br>
 • Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
-Experience: (Demo <a href='https://www.youtube.com/watch?v=VpZX2sHz5oY' target="_blank">here</a>.)<br>
+Experience: Demo <a href='https://www.youtube.com/watch?v=VpZX2sHz5oY' target="_blank">here</a>.<br>
 • Konradio.co - Online radio station (Jul 2013 - Jan 2015)<br>
 • La Voz del Derecho - Online radio station (Jul 2013 - Nov 2013)<br>
 • WPSP Radio 1190 AM West Palm Beach, FL (Nov 2010 - Jul 2013)
