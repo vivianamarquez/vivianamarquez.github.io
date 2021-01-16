@@ -30,7 +30,7 @@ navbar-links:
   #  - GitHub Pages: "https://pages.github.com/"
   PROFESSIONAL RESUME: "http://vivianamarquez.com/pages/MyResume/"
   MODELING PORTAFOLIO: "http://vivianamarquez.com/pages/Modeling/"
-  MORE: "http://vivianamarquez.com/pages/More/"
+  #MORE: "http://vivianamarquez.com/pages/More/"
   
 
 # Image to show in the navigation bar - image must be a square (width = height)
