@@ -45,7 +45,7 @@ Experience: <br>
 # Social Media Influencer
 Experience: <br>
 • <a href='https://www.youtube.com/user/vivmarquez' target='_blank'>YouTube</a>: Videos sobre ciencia de datos de una manera divertida<br>
-• Instagram: I promote products on my IG. Send me an email if you want more information. <br>
+• <a href='https://instagram.com/vivianamarquez'>Instagram:</a> I promote products on my IG. Send me an email if you want more information. <br>
 
 # Content Creator
 • YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>mini serie</a> de tres capítulos<br>
