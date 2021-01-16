@@ -24,11 +24,11 @@ Experience: <a href='https://www.instagram.com/p/CIgHlJFgge-/' target="_blank">H
 
 # TV host
 Experience: <br>
-• Presentadora de "<a href='https://youtu.be/RR9QaBRAHvM?t=195', target="_blank">Tendencias Faranduleras</a>" en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
+• Presentadora de <a href='https://youtu.be/RR9QaBRAHvM?t=195', target="_blank">Tendencias Faranduleras</a> en el programa Somos RD transmitido por TV Quisqueya (Nov 2020 - Actual)<br>
 • Presentadora de XXV Entrega de los Premios TVyNovelas en el canal Telepacífico (Abr 2016)
 
 # Radio host
-Experience: Demo <a href='https://www.youtube.com/watch?v=VpZX2sHz5oY' target="_blank">here</a>.<br>
+Experience: (Demo <a href='https://www.youtube.com/watch?v=VpZX2sHz5oY' target="_blank">here</a>.)<br>
 • Konradio.co - Online radio station (Jul 2013 - Jan 2015)<br>
 • La Voz del Derecho - Online radio station (Jul 2013 - Nov 2013)<br>
 • WPSP Radio 1190 AM West Palm Beach, FL (Nov 2010 - Jul 2013)
@@ -44,16 +44,16 @@ Experience: <br>
 
 # Actress
 Experience: <br>
-• Estudiante de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
+• <a href='https://www.youtube.com/watch?v=6jnpBJqGQoo' target='_blank'>Estudiante</a> de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
 
 # Social Media Influencer
 Experience: <br>
-• YouTube: Videos sobre ciencia de datos de una manera divertida<br>
+• <a href='https://www.youtube.com/user/vivmarquez' target='_blank'>YouTube</a>: Videos sobre ciencia de datos de una manera divertida<br>
 • Instagram: I promote products on my IG. Send me an email if you want more information. <br>
 
 # Content Creator
 <br>
-• YouTube: Creación, dirección, producción, edición y actuación de una mini serie de tres capítulos. <br>
+• YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>mini serie</a> de tres capítulos. <br>
 • Adicionalmente, soy creadora de contenidos (tengo experiencia como copy, SEO, community manager) y hago edición de videos (Adobe Premiere y Final Cut Studio)
 
 # Languages
