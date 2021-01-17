@@ -49,7 +49,7 @@ Experience: <br>
 • <a href='https://instagram.com/vivianamarquez'>Instagram:</a> I promote products on my IG. Send me an email if you want more information. <br>
 
 # Content Creator
-• YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>mini serie</a> de tres capítulos<br>
+• YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>Coffee Man</a>, una mini serie web de tres capítulos<br>
 • Soy creadora de contenidos (tengo experiencia como copy, CM, SEO) y hago edición de videos (Adobe Premiere y Final Cut Studio)
 
 # Languages
