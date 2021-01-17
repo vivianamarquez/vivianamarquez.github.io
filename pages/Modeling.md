@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Modeling Portafolio
+title: Multimedia Portafolio
 ---
 
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
