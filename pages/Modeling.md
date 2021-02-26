@@ -7,7 +7,7 @@ title: Multimedia Portafolio
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
   <div class="video-container">
-<iframe src="http://vivianamarquez.com/jekyll-slideshow/slides/my-pics1.html" width="100%" height="500px" style="border: none;"></iframe>
+<iframe src="http://vivianamarquez.com/jekyll-slideshow/slides/my-pics1.html" width="100%" style="border: none;"></iframe>
 </div>
 
 <center>📍 Currently located in Miami, FL. </center>
