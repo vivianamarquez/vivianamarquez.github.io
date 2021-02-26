@@ -10,7 +10,7 @@ subtitle: Check out some of my work!
 
 ## Academia
 
-* [NLP 2020-II](http://vivianamarquez.com/NLP_Analitica_Estategica_Datos/): Slides from the NLP classes I teach for the graduate programs in analytics at FUKL.
+* [NLP 2021-I](http://vivianamarquez.com/NLP-KL-2021-I/): Slides from the NLP classes I teach for the graduate programs in analytics at FUKL.
 * [Lecture notes](http://vivianamarquez.com/pages/LectureNotes/): Some lecture notes I took when I was a math and a data science student.
 * [Science posts](http://vivianamarquez.com/pages/SciencePosts/): A list with some of my science outreach publications.
 
