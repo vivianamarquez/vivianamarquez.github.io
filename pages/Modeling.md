@@ -6,7 +6,7 @@ title: Multimedia Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   <div class="video-container">
-<iframe src="http://lexoyo.me/jekyll-slideshow/slides/my-pics1.html" width="100%" height="5000px" style="border: none;"></iframe>
+<iframe src="http://lexoyo.me/jekyll-slideshow/slides/my-pics1.html" width="100%" height="200px" style="border: none;"></iframe>
 </div>
 <center>📍 Currently located in Miami, FL. </center>
 
