@@ -14,7 +14,7 @@ title: Multimedia Portafolio
 
 # Model
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
-<a href='https://www.instagram.com/p/CIgHlJFgge-/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Actual)
+<a href='https://houseoftopmodels.com/user/vivianamarquez/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Actual)
 
 # TV host
 Experience: <br>
