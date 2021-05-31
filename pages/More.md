@@ -19,7 +19,7 @@ subtitle: Check out some of my work!
 * [Analysis of my own Twitter](http://vivianamarquez.com/Twitter1K/): To celebrate having reached 1K followers on Twitter, I analyzed my own account using Data Science.
 * [Chsime y Python](http://vivianamarquez.com/ChismeYPython/): What happens when you apply Data Science to your best friend's chat history?
 * [Slack Reactions dashboard](https://msds2019.herokuapp.com/): MSDS Cohort #7 was a crazy one and this dashboard about their Slack conversations shows it (give it a few seconds to load, it's running on free Dynos).
-* [Travel Dashboard](http://vivianamarquez.com/pages/TravelDashboard/): I am passionate about traveling, so I created my own travel dashboard using Tableau. ([Here for Plotly version](http://vivianamarquez.com/pages/map.html))
+* [Travel Dashboard](http://vivianamarquez.com/pages/TravelDashboard/): I am passionate about traveling, so I created my own travel dashboard using Tableau. ([Click here for Plotly version](http://vivianamarquez.com/pages/map.html))
 
 ## [GitHub](https://github.com/vivianamarquez)
 Don't forget to visit my GitHub to see all my code!
