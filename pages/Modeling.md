@@ -38,14 +38,10 @@ Experience: <br>
 
 # Actress
 Experience: <br>
-• <a href='https://www.youtube.com/watch?v=6jnpBJqGQoo' target='_blank'>Estudiante</a> de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
-
-# Social Media Influencer
-Experience: <br>
-• <a href='https://www.youtube.com/user/vivmarquez' target='_blank'>YouTube</a>: Videos sobre ciencia de datos de una manera divertida<br>
-• <a href='https://instagram.com/vivianamarquez'>Instagram:</a> I promote products on my IG. Send me an email if you want more information. <br>
+• Estudiante de la academia Sueños en Escena en Bogotá, Colombia (Jun 2012 - Dec 2013)
 
 # Content Creator
+• <a href='https://www.youtube.com/user/vivmarquez' target='_blank'>YouTube</a>: Videos sobre ciencia de datos de una manera divertida<br>
 • YouTube: Creación, dirección, producción, edición y actuación de una <a href='https://www.youtube.com/watch?v=ykiN11b9IZ4&list=PLJw3ZK6gs8y1tIj8sggTLCEv_goehDIIf&ab_channel=CoffeeMan' target='_blank'>Coffee Man</a>, una mini serie web de tres capítulos<br>
 • Soy creadora de contenidos (tengo experiencia como copy, CM, SEO) y hago edición de videos (Adobe Premiere y Final Cut Studio)
 
