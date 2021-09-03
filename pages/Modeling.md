@@ -6,13 +6,13 @@ title: Multimedia Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
-<center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:500px;"></center>
+<center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:500px;"> <img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:500px;"></center>
 
 <center>📍 Currently located in Miami, FL. </center>
 
 # Model
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
-<a href='https://houseoftopmodels.com/user/vivianamarquez/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Actual)
+<a href='https://houseoftopmodels.com/user/vivianamarquez/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Jul 2021)
 
 # TV host
 Experience: <br>
