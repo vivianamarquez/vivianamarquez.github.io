@@ -6,7 +6,7 @@ title: Multimedia Portafolio
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
-<center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:300px;"> <img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:300px;"></center>
+<center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:350px;"> <img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:350px;"></center>
 
 # Model
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
