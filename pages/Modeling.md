@@ -8,6 +8,10 @@ title: Multimedia Portafolio
   
 <center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:350px;"> <img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:350px;"></center>
 
+# Miss Universe Colombia 2021
+Currently competing in the Miss Universe Colombia, a pageant that selects the country's representative to the Miss Universe pageant. I am Miss Universe Sucre 2021. Sucre is a state in the Caribbean Region of Colombia. Home to the magical realism, I am proud to represent my maternal family's birthplace. 
+
+
 # Model
 Height: 5'9 | Eyes: Green | Hair: Brown | Build: Slim <br>
 <a href='https://houseoftopmodels.com/user/vivianamarquez/' target="_blank">Experience</a>: House of Top Models in Miami, FL. (Nov 2020 - Jul 2021)
