@@ -8,7 +8,7 @@ title: Multimedia Portafolio
   
 <center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:350px;"><br><br>
 <img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:350px;">
-<img src='https://github.com/vivianamarquez/vivianamarquez.github.io/blob/master/img/Miss%20Sucre%20Viviana%20Marquez.png' style="height:350px;"></center>
+<img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Sucre%20Viviana%20Marquez.png?raw=true' style="height:350px;"></center>
 
 
 
