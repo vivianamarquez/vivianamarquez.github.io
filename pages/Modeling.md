@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multimedia Portafolio
+title: Talent Resume
 ---
 
 <meta name="description" content="Viviana Márquez | Media and Modeling Portafolio">
