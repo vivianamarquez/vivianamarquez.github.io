@@ -7,13 +7,12 @@ title: Multimedia Portafolio
 <meta name="keywords" content="Viviana Márquez | Model, actress, TV host, Radio host, multimedia talent">
   
 <center><img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/portafolio/Photo%20Jun%2012,%2019%2046%2006.jpg' style="height:350px;"><br><br>
-<img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Universe%20Sucre%202021%20Colombia%20Viviana%20Ma%CC%81rquez.JPG' style="height:350px;">
-<img src='https://raw.githubusercontent.com/vivianamarquez/vivianamarquez.github.io/master/img/Miss%20Sucre%20Viviana%20Marquez.png?raw=true' style="height:350px;"></center>
+</center>
 
 
 
 # Miss Universe Colombia 2021
-Currently competing in the Miss Universe Colombia, a pageant that selects the country's representative to the Miss Universe pageant. I am Miss Universe Sucre 2021. Sucre is a state in the Caribbean Region of Colombia. Craddle to magical realism, I am proud to represent my maternal family's birthplace. 
+Competed in the Miss Universe Colombia where I placed in the top 13 as Miss Universe Sucre 2021. Sucre is a state in the Caribbean Region of Colombia. Craddle to magical realism, I am proud to represent my maternal family's birthplace. 
 
 
 # Model
