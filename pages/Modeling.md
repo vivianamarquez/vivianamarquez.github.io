@@ -12,7 +12,7 @@ title: Multimedia Portafolio
 
 
 # Miss Universe Colombia 2021
-Competed in the Miss Universe Colombia where I placed in the top 13 as Miss Universe Sucre 2021. Sucre is a state in the Caribbean Region of Colombia. Craddle to magical realism, I am proud to represent my maternal family's birthplace. 
+Competed in the Miss Universe Colombia contest where I placed in the top 13 as Miss Universe Sucre 2021. Sucre is a state in the Caribbean Region of Colombia. Craddle to magical realism, I am proud to represent my maternal family's birthplace. 
 
 
 # Model
