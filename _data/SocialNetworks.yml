@@ -69,7 +69,7 @@ youtube:
 tiktok:
   name: "TikTok"
   baseURL: "https://www.tiktok.com/@"
-  icon: "fa-bell"
+  icon: "fa-tiktok"
 
 spotify:
   name: "Spotify"
