@@ -63,8 +63,13 @@ instagram:
 
 youtube:
   name: "YouTube"
-  baseURL: "https://www.youtube.com/"
+  baseURL: "https://www.youtube.com/user/"
   icon: "fa-youtube"
+  
+tiktok:
+  name: "TikTok"
+  baseURL: "https://www.tiktok.com/@"
+  icon: "fa-tiktok"
 
 spotify:
   name: "Spotify"
@@ -100,8 +105,3 @@ medium:
   name: "Medium"
   baseURL: "https://medium.com/@"
   icon: "fa-medium"
-
-tiktok:
-  name: "TikTok"
-  baseURL: "https://www.tiktok.com/@"
-  icon: "fa-tiktok"
