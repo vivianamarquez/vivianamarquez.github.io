@@ -100,3 +100,8 @@ medium:
   name: "Medium"
   baseURL: "https://medium.com/@"
   icon: "fa-medium"
+
+tiktok:
+  name: "TikTok"
+  baseURL: "https://www.tiktok.com/"
+  icon: "fa-tiktok"
