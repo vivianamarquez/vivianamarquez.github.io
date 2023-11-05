@@ -9,7 +9,7 @@
 facebook:
   name: "Facebook"
   baseURL: "https://www.facebook.com/"
-  icon: "bxl-facebook"
+  icon: "bx bxl-facebook"
 
 github:
   name: "GitHub"
@@ -19,7 +19,7 @@ github:
 twitter:
   name: "Twitter"
   baseURL: "https://twitter.com/"
-  icon: "bxl-twitter"
+  icon: "bx bxl-twitter"
 
 reddit:
   name: "Reddit"
@@ -34,12 +34,12 @@ google-plus:
 email:
   name: "Email"
   baseURL: "mailto:"
-  icon: "bx-envelope"
+  icon: "bx bx-envelope"
 
 linkedin:
   name: "LinkedIn"
   baseURL: "https://linkedin.com/in/"
-  icon: "bxl-linkedin"
+  icon: "bx bxl-linkedin"
 
 xing:
   name: "Xing"
@@ -59,17 +59,17 @@ snapchat:
 instagram:
   name: "Instagram"
   baseURL: "https://www.instagram.com/"
-  icon: "bxl-instagram"
+  icon: "bx bxl-instagram"
 
 youtube:
   name: "YouTube"
   baseURL: "https://www.youtube.com/user/"
-  icon: "bxl-youtube"
+  icon: "bx bxl-youtube"
   
 tiktok:
   name: "TikTok"
   baseURL: "https://www.tiktok.com/@"
-  icon: "bxl-tiktok"
+  icon: "bx bxl-tiktok"
 
 spotify:
   name: "Spotify"
@@ -104,9 +104,9 @@ yelp:
 medium:
   name: "Medium"
   baseURL: "https://medium.com/@"
-  icon: "bxl-medium"
+  icon: "bx bxl-medium"
 
 resume:
   name: "Resume"
   baseURL: "https://drive.google.com/file/"
-  icon: "bx-file"
+  icon: "bx bx-file"
