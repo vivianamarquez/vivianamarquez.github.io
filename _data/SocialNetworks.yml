@@ -14,7 +14,7 @@ facebook:
 github:
   name: "GitHub"
   baseURL: "https://github.com/"
-  icon: "fa-github"
+  icon: "bx bxl-github"
 
 twitter:
   name: "Twitter"
