@@ -105,3 +105,8 @@ medium:
   name: "Medium"
   baseURL: "https://medium.com/@"
   icon: "fa-medium"
+
+resume:
+  name: "Resume"
+  baseURL: "https://drive.google.com/file/"
+  icon: "fa-file"
