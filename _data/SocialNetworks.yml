@@ -64,12 +64,12 @@ instagram:
 youtube:
   name: "YouTube"
   baseURL: "https://www.youtube.com/user/"
-  icon: "fa-youtube"
+  icon: "fab-fa-youtube"
   
 tiktok:
   name: "TikTok"
   baseURL: "https://www.tiktok.com/@"
-  icon: "fab fa-tiktok"
+  icon: "fab-fa-tiktok"
 
 spotify:
   name: "Spotify"
