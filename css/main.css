@@ -807,26 +807,35 @@ td.gutter {
   }
 }
 
-.contact .social-links {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
+#footer .social-links {
+  margin: 0 0 40px 0;
 }
 
-.contact .social-links a {
+#footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #687683;
+  background: #CB62B2;
+  color: #fff;
   line-height: 1;
-  margin: 0 8px;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
   transition: 0.3s;
-  padding: 14px;
-  border-radius: 50px;
-  border: 1px solid #dde1e4;
 }
 
-.contact .social-links a:hover {
+#footer .social-links a:hover {
+  background: #f3a200;
   color: #fff;
-  border-color: #CB62B2;
-  background: #CB62B2;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
 }

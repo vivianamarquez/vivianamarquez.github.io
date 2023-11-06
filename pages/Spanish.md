@@ -1,0 +1,74 @@
+---
+layout: page
+title: Viviana Márquez
+subtitle: EdTech Founder @MissFactorial | Data Scientist | Lecturer
+use-site-title: true
+---
+
+<!-- Typed.js --> 
+<script src="/js/jquery-1.11.2.min.js"></script>
+<script src="/js/typed.js" type="text/javascript"></script>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["an EdTech Founder.", "a data scientist.", "a teacher.", "a mathematician.", "a Radio and TV host.", "Miss Universe Sucre 2021.", "a profe.",],
+      typeSpeed: 85,
+      loop: true,
+      backDelay: 1000
+    });
+  });
+</script>
+
+<div class="typed-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+          <h1>I am <span class="typed" style="color:#CB62B2";></span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- site body (untouched)--> 
+
+
+    <div id="about">
+      <div class="borde"></div>
+      <p>
+
+        <hr>
+
+        <div>
+        <b><big>✨ About Me</big></b>
+        <br><br>
+        <img src="img/main/viviana_marquez_nyc_headshot.jpg" height="300" align="left" style="margin-right: 20px;">
+        
+	      I'm a multifaceted professional with a fervor for artificial intelligence, education, and empowerment. With over 10 years of coding experience, I've navigated through various sectors, leveraging data science to drive innovation in advertising, marketing, retail, and cybersecurity.
+        <br><br>
+        As an educator, I've had the honor of guiding over 1,300 students across the globe in mastering AI and data skills. My passion for knowledge-sharing stems from a simple yet profound belief: understanding technology in the modern age is as essential as literacy in times gone by.
+        </div>
+
+        <hr>
+
+        <div>
+        <b><big>🚀 Miss Factorial Academy</big></b>
+        <br><br>
+        <img src="img/main/teaching_viviana_marquez.jpeg" height="300" align="left" style="margin-right: 20px;">
+        
+        As the proud founder of Miss Factorial Academy, I am deeply passionate about transforming AI and data education into an engaging journey. In a world where data fluency has become as indispensable as literacy, my goal is to unlock the power of science and technology for all, transcending profession, socioeconomic status, cultural background, or educational level. Guided by the belief that learning should be as exciting as the most captivating episodes of your favorite series, I steer Miss Factorial Academy towards a future where every lesson is an adventure, every concept a discovery, and every student a story of success waiting to unfold.
+       </div>
+
+        <hr>
+        <div>
+        <b><big> 🎤 TV/Radio Host</big></b>
+        <br><br>
+        <img src="img/main/miss%20universe%20sucre%202021%20viviana%20marquez.jpg" height="300" align="left" style="margin-right: 20px;">
+        
+        Outside the tech realm, I've embraced the spotlight as Miss Sucre, making it to the top 13 at the Miss Universe Colombia 2021 competition. During this journey, I utilized the contest platform to advocate for the importance of women in STEM fields, aiming to inspire young girls and women to pursue their passion in science, technology, engineering, and mathematics.
+        <br><br>
+        I've also engaged in science/tech outreach as a Radio and TV host across multiple countries, starting in 2010 and continuing on a seasonal basis. My role has allowed me to break down complex concepts into accessible information, presented in a friendly and captivating way, with the aim of cultivating a culture that values STEM literacy.
+      </div>
+
+	    </p>
+    </div>
