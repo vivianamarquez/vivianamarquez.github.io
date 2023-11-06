@@ -783,30 +783,6 @@ td.gutter {
   font-size: 16px;
 }
 
-.social-links {
-  margin: 0 0 40px 0;
-  a {
-    font-size: 32px;
-    display: inline-block;
-    position: relative;
-    background: #CB62B2;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-    &:hover {
-      background: darken(#6621B0, 10);
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-}
-
 #footer .social-links {
   margin: 0 0 40px 0;
 }
@@ -838,4 +814,55 @@ td.gutter {
 
 #footer .credits {
   font-size: 13px;
+}
+
+ /* --- Social Links --- */
+
+.social-links a {
+  font-size: 32px; /* Icon size */
+  display: inline-block;
+  position: relative;
+  background-color: #CB62B2; /* Pink background */
+  color: #ffffff; /* White icon */
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%; /* Circular border */
+  text-align: center;
+  width: 36px; /* Circle size */
+  height: 36px; /* Circle size */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for color and background */
+}
+
+.social-links a:hover {
+  background-color: #6621B0; /* Purple background on hover */
+  color: #ffffff; /* White icon on hover */
+  text-decoration: none;
+}
+
+.social-links a::after {
+  content: attr(title); /* Show text from the title attribute */
+  position: absolute;
+  left: 50%;
+  bottom: -30px; /* Positioning below the icon */
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.social-links a:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Ensure that FontAwesome icons or Boxicons are white */
+.social-links a i {
+  color: #ffffff; /* White icon color */
+}
+
+/* Adjust these selectors if using Boxicons */
+.social-links a .bi {
+  font-size: 1.5em; /* Adjust icon size if necessary */
 }
