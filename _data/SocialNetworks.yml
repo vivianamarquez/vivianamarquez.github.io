@@ -64,7 +64,7 @@ instagram:
 youtube:
   name: "YouTube"
   baseURL: "https://www.youtube.com/user/"
-  icon: "bx bxl-youtube"
+  icon: "bxl-youtube"
   
 tiktok:
   name: "TikTok"
