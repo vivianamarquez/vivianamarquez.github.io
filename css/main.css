@@ -786,8 +786,9 @@ td.gutter {
 .social-links {
   margin: 0 0 40px 0;
   a {
-    font-size: 18px;
+    font-size: 32px;
     display: inline-block;
+    position: relative;
     background: #CB62B2;
     color: #fff;
     line-height: 1;
@@ -799,7 +800,7 @@ td.gutter {
     height: 36px;
     transition: 0.3s;
     &:hover {
-      background: darken(#CB62B2, 10);
+      background: darken(#6621B0, 10);
       color: #fff;
       text-decoration: none;
     }
