@@ -10,11 +10,6 @@ subtitle: A list with some of my publications in different blogs
 
 * [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
 
-#### STEM
-
-* [¿En qué se parecen el periodismo deportivo y el periodismo científico en Colombia?](https://semillas.konradlorenz.edu.co/2017/09/en-qu%C3%A9-se-parecen-el-periodismo-deportivo-y-el-periodismo-cient%C3%ADfico-en-colombia-i-encuentro-colombi.html)
-* [Konradio es nuestra emisora](http://ukonradlorenz.tumblr.com/post/76362652514/konradio-es-nuestra-emisora#.W9qBdXpKiMJ)
-
 ## Mathematics 
 
 #### Mathematical Concepts 
@@ -75,6 +70,11 @@ subtitle: A list with some of my publications in different blogs
 
 
 ## Science Journalism
+
+#### Miscellaneous 
+
+* [¿En qué se parecen el periodismo deportivo y el periodismo científico en Colombia?](https://semillas.konradlorenz.edu.co/2017/09/en-qu%C3%A9-se-parecen-el-periodismo-deportivo-y-el-periodismo-cient%C3%ADfico-en-colombia-i-encuentro-colombi.html)
+* [Konradio es nuestra emisora](http://ukonradlorenz.tumblr.com/post/76362652514/konradio-es-nuestra-emisora#.W9qBdXpKiMJ)
 
 #### N + 1 
 I have translated the following articles from Russian to Spanish for nmas1.org, a science and technology magazine for Latin America based in California.
