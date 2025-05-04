@@ -10,20 +10,7 @@ subtitle: A list with some of my publications in different blogs
 
 * [Medium](https://medium.com/@vivianamarquez): Publications mostly about Data Science.
 
-## Science Journalism
-
-#### N + 1 
-I have translated the following articles from Russian to Spanish for [nmas1.org](https://nmas1.org/), a science and technology magazine for Latin America based in California.
-* [De bellezas a monstruos](https://nmas1.org/material/2019/06/03/formulas-belleza)
-* [Se vende tu ADN](https://nmas1.org/material/2019/05/13/se-vende-adn)
-* [El ‘deep fake’ nuevamente hace de las suyas: ahora manipula un partido de tenis](https://nmas1.org/news/2019/04/23/deepfake)
-* [Dinero sin árbitro - Bitcoins & Blockchains](https://nmas1.org/material/2019/05/06/bitcoin-historia)
-* [¿Un terabyte es mucho o poco?](https://nmas1.org/material/2019/03/13/terabyte-tamano)
-* [Cómo encontrar el mayor número primo conocido](https://nmas1.org/material/2019/03/10/mayor-primo)
-* [¿Eres lo suficientemente astuto para pasar esta prueba?](https://nmas1.org/material/2019/03/03/Yeezy-matematicas)
-* [Colorear para matemáticos](https://nmas1.org/material/2019/02/11/colores-matematicos)
-
-#### Others
+#### STEM
 
 * [¿En qué se parecen el periodismo deportivo y el periodismo científico en Colombia?](https://semillas.konradlorenz.edu.co/2017/09/en-qu%C3%A9-se-parecen-el-periodismo-deportivo-y-el-periodismo-cient%C3%ADfico-en-colombia-i-encuentro-colombi.html)
 * [Konradio es nuestra emisora](http://ukonradlorenz.tumblr.com/post/76362652514/konradio-es-nuestra-emisora#.W9qBdXpKiMJ)
@@ -85,3 +72,17 @@ I have translated the following articles from Russian to Spanish for [nmas1.org]
 
 * [Astronomy Music Awards](https://astronomia.konradlorenz.edu.co/2017/05/astronomy-music-awards.html)
 * [La astronomía en la obra de Gabriel García Márquez](https://astronomia.konradlorenz.edu.co/2015/10/la-astronom%C3%ADa-en-la-obra-de-garc%C3%ADa-m%C3%A1rquez.html)
+
+
+## Science Journalism
+
+#### N + 1 
+I have translated the following articles from Russian to Spanish for nmas1.org, a science and technology magazine for Latin America based in California.
+* De bellezas a monstruos
+* Se vende tu ADN
+* El ‘deep fake’ nuevamente hace de las suyas: ahora manipula un partido de tenis
+* Dinero sin árbitro - Bitcoins & Blockchains
+* ¿Un terabyte es mucho o poco?
+* Cómo encontrar el mayor número primo conocido
+* ¿Eres lo suficientemente astuto para pasar esta prueba?
+* Colorear para matemáticos
