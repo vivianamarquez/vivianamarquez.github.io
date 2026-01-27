@@ -471,7 +471,7 @@ footer .theme-by {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding: 100px 0;
+  padding: 130px 0 70px 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
@@ -527,7 +527,7 @@ footer .theme-by {
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
-    padding: 150px 0;
+    padding: 180px 0 120px 0;
   }
   .intro-header .page-heading h1 {
     font-size: 80px;
