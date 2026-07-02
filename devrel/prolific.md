@@ -9,8 +9,8 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 <style>
   :root {
     --record-ink: #1f1930;
-    --record-muted: #6c6478;
-    --record-line: rgba(31, 25, 48, 0.13);
+    --record-muted: #51495f;
+    --record-line: rgba(31, 25, 48, 0.17);
     --record-paper: #fffaf7;
     --record-panel: #ffffff;
     --record-tint: #f5eee9;
@@ -25,11 +25,11 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   .prolific-record {
     color: var(--record-ink);
     font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
-    padding: 116px 20px 80px;
+    padding: 116px 18px 72px;
   }
 
   .record-wrap {
-    width: min(980px, 100%);
+    width: min(1120px, 100%);
     margin: 0 auto;
   }
 
@@ -53,7 +53,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
   .record-hero h1 {
     margin: 0;
-    max-width: 760px;
+    max-width: 720px;
     font-size: clamp(34px, 5.6vw, 62px);
     line-height: 1.06;
     letter-spacing: 0;
@@ -66,6 +66,11 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
     color: var(--record-muted);
     font-size: 18px;
     line-height: 1.55;
+  }
+
+  .record-summary strong {
+    color: var(--record-ink);
+    font-weight: 700;
   }
 
   .record-portrait {
@@ -90,22 +95,24 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
   .record-carousel-head {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 16px;
     align-items: baseline;
     margin-bottom: 9px;
   }
 
-  .record-carousel-head h2 {
-    margin: 0;
+  .record-carousel-head span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    height: 30px;
+    color: var(--record-accent);
+    background: var(--record-accent-soft);
+    border: 1px solid rgba(155, 47, 109, 0.16);
+    border-radius: 999px;
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0;
-  }
-
-  .record-carousel-head span {
-    color: var(--record-muted);
-    font-size: 13px;
   }
 
   .record-carousel-track {
@@ -151,7 +158,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
   .record-stat {
     display: block;
-    padding: 14px;
+    padding: 12px 13px;
     background: var(--record-panel);
     border: 1px solid var(--record-line);
     border-radius: 8px;
@@ -206,7 +213,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   .record-section {
     scroll-margin-top: 96px;
     margin-top: 42px;
-    padding: 28px;
+    padding: 22px;
     background: var(--record-panel);
     border: 1px solid var(--record-line);
     border-radius: 8px;
@@ -240,7 +247,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   }
 
   .record-list li {
-    padding: 14px 0;
+    padding: 13px 0;
     border-top: 1px solid var(--record-line);
   }
 
@@ -294,6 +301,22 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+  }
+
+  .record-inline-list {
+    margin: 12px 0 0;
+    color: var(--record-muted);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .record-inline-list span {
+    color: var(--record-ink);
+  }
+
+  .record-inline-list span + span:before {
+    content: " | ";
+    color: var(--record-muted);
   }
 
   .record-sublist {
@@ -354,7 +377,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       <div>
         <p class="record-kicker">June 2025 - July 2026</p>
         <h1>Developer Relations<br>at Prolific</h1>
-        <p class="record-summary">Built Prolific's developer relations function from zero across technical content, community, open source, events, internal enablement, and GTM support. Recognized with the "We Embrace Change" award for shaping its direction.</p>
+        <p class="record-summary">Built Prolific's developer relations function from the ground up, spanning technical content, community, open source, events, internal enablement, and GTM support. This work helped shape the direction of DevRel at Prolific and was recognized with the <strong>"We Embrace Change" award</strong>.</p>
       </div>
       <div class="record-portrait">
         <img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific">
@@ -363,13 +386,11 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
     <section class="record-carousel" aria-label="Photo highlights">
       <div class="record-carousel-head">
-        <h2>Photo carousel</h2>
-        <span>Scroll sideways to view all images &rarr;</span>
+        <span aria-hidden="true">&larr; &rarr;</span>
       </div>
       <div class="record-carousel-track">
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
-        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific"></div>
         <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
@@ -417,7 +438,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
         <li><p class="record-item-title">Prolific External Study Link</p><p class="record-item-desc">Getting-started path for external study workflows.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-external-study-link-getting-started">GitHub repo</a></p></li>
         <li><p class="record-item-title">Prolific's AI Task Builder</p><p class="record-item-desc">Introductory guide for using AI Task Builder.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-ai-task-builder-getting-started">GitHub repo</a></p></li>
         <li><p class="record-item-title">Prolific Survey</p><p class="record-item-desc">Getting-started survey workflow.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-survey-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Org description README <span class="record-tag">created</span></p><p class="record-item-desc">Created the GitHub organization description README.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/">GitHub org</a></p></li>
+        <li><p class="record-item-title">Org description README</p><p class="record-item-desc">Created the GitHub organization description README.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/">GitHub org</a></p></li>
         <li><p class="record-item-title">Among Bots demo</p><p class="record-item-desc">Demo using Deliberate Labs.</p></li>
       </ul>
     </section>
@@ -426,12 +447,12 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       <h2>Meetups</h2>
       <p class="record-note">End-to-end: logistics, speaker outreach, marketing, hosting, and GTM lead handoff.</p>
       <ul class="record-list">
-        <li><p class="record-item-title">Operationalizing Agents w/ AI</p><p class="record-item-desc">Featuring Google Research, Google DeepMind, and Snowflake.</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a href="https://luma.com/2x62tiuu">Luma</a></p></li>
-        <li><p class="record-item-title">Frontier Evals w/ AI Circle</p><p class="record-item-desc">Featuring Amazon, Braintrust, and Microsoft.</p><p class="record-item-meta">📍 Seattle · 🗓️ May 2026 · 🔗 <a href="https://luma.com/ljfk2sxn">Luma</a></p></li>
-        <li><p class="record-item-title">Frontier Evals w/ AI Circle</p><p class="record-item-desc">Featuring Google DeepMind, Cohere, and LinkedIn.</p><p class="record-item-meta">📍 New York · 🗓️ Mar 2026 · 🔗 <a href="https://luma.com/0qusb8j8">Luma</a></p></li>
-        <li><p class="record-item-title">What 25,000 Humans Really Think About AI</p><p class="record-item-desc">Featuring Prolific.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Dec 2025 · 🔗 <a href="https://luma.com/0zbx2brz">Luma</a></p></li>
-        <li><p class="record-item-title">Beyond the Benchmark</p><p class="record-item-desc">Featuring Inflection AI.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Nov 2025 · 🔗 <a href="https://luma.com/772frd2b">Luma</a></p></li>
-        <li><p class="record-item-title">Researchers Building Real-World AI Tooling</p><p class="record-item-desc">Featuring Prolific, USF, and Stanford.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a href="https://luma.com/tyue3bfq">Luma</a></p></li>
+        <li><p class="record-item-title">Operationalizing Agents w/ AI | Prolific</p><p class="record-item-desc">Featuring researchers from Google Research, Google DeepMind, and Snowflake.</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a href="https://luma.com/2x62tiuu">Luma</a></p></li>
+        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Amazon, Braintrust, and Microsoft.</p><p class="record-item-meta">📍 Seattle · 🗓️ May 2026 · 🔗 <a href="https://luma.com/ljfk2sxn">Luma</a></p></li>
+        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Google DeepMind, Cohere, and LinkedIn.</p><p class="record-item-meta">📍 New York · 🗓️ Mar 2026 · 🔗 <a href="https://luma.com/0qusb8j8">Luma</a></p></li>
+        <li><p class="record-item-title">What 25,000 Humans Really Think About AI | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Dec 2025 · 🔗 <a href="https://luma.com/0zbx2brz">Luma</a></p></li>
+        <li><p class="record-item-title">Beyond the Benchmark | Prolific</p><p class="record-item-desc">Featuring researchers from Inflection AI.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Nov 2025 · 🔗 <a href="https://luma.com/772frd2b">Luma</a></p></li>
+        <li><p class="record-item-title">Researchers Building Real-World AI Tooling | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific, USF, and Stanford.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a href="https://luma.com/tyue3bfq">Luma</a></p></li>
         <li><p class="record-item-title">Strategic dinner events</p><p class="record-item-desc">Relationship-building dinners for AI and research audiences.</p><p class="record-item-meta">📍 San Francisco, NYC, Seattle · 🗓️ 2025-2026</p></li>
       </ul>
     </section>
@@ -445,13 +466,13 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
         <li><p class="record-item-title">AI Developer Conference by DeepLearning.AI</p><p class="record-item-meta">📍 New York · 🗓️ Nov 2025</p></li>
       </ul>
       <h3 class="record-subhead">Support</h3>
-      <ul class="record-list">
-        <li><p class="record-item-title">AI Engineer World's Fair</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jul 2026</p></li>
-        <li><p class="record-item-title">London Tech Week</p><p class="record-item-meta">📍 London · 🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">ICLR</p><p class="record-item-meta">📍 Rio de Janeiro · 🗓️ May 2026</p></li>
-        <li><p class="record-item-title">Human X</p><p class="record-item-meta">📍 San Francisco · 🗓️ Apr 2026</p></li>
-        <li><p class="record-item-title">AI Engine Summer Hack</p><p class="record-item-meta">📍 London · 🗓️ Aug 2025</p></li>
-      </ul>
+      <p class="record-inline-list">
+        <span>AI Engineer World's Fair · 📍 San Francisco · 🗓️ Jul 2026</span>
+        <span>London Tech Week · 📍 London · 🗓️ Jun 2026</span>
+        <span>ICLR · 📍 Rio de Janeiro · 🗓️ May 2026</span>
+        <span>Human X · 📍 San Francisco · 🗓️ Apr 2026</span>
+        <span>AI Engine Summer Hack · 📍 London · 🗓️ Aug 2025</span>
+      </p>
     </section>
 
     <section class="record-section" id="content">
