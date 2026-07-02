@@ -37,9 +37,9 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   .record-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 210px;
-    gap: 28px;
-    align-items: end;
+    grid-template-columns: minmax(0, 1fr) 270px;
+    gap: 16px;
+    align-items: center;
     padding-bottom: 24px;
     border-bottom: 1px solid var(--record-line);
   }
@@ -55,7 +55,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   .record-hero h1 {
     margin: 0;
-    max-width: 720px;
+    max-width: 820px;
     font-size: clamp(34px, 5.6vw, 62px);
     line-height: 1.06;
     letter-spacing: 0;
@@ -64,7 +64,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   .record-summary {
     margin: 20px 0 0;
-    max-width: 760px;
+    max-width: 720px;
     color: var(--record-muted);
     font-size: 18px;
     line-height: 1.55;
@@ -92,29 +92,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   }
 
   .record-carousel {
-    margin: 24px 0 22px;
-  }
-
-  .record-carousel-head {
-    display: flex;
-    justify-content: flex-end;
-    gap: 16px;
-    align-items: baseline;
-    margin-bottom: 9px;
-  }
-
-  .record-carousel-head span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 64px;
-    height: 30px;
-    color: var(--record-accent);
-    background: var(--record-accent-soft);
-    border: 1px solid rgba(155, 47, 109, 0.16);
-    border-radius: 999px;
-    font-size: 16px;
-    font-weight: 600;
+    margin: 18px 0 22px;
   }
 
   .record-carousel-track {
@@ -177,13 +155,13 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   }
 
   .record-stat span {
-    color: var(--record-muted);
+    color: var(--record-accent);
     font-size: 13px;
     line-height: 1.35;
   }
 
   .record-stat a {
-    color: var(--record-muted);
+    color: var(--record-accent);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
@@ -221,6 +199,21 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     border-radius: 8px;
   }
 
+  .record-divider {
+    margin: 48px 0 -18px;
+    padding-top: 6px;
+    border-top: 1px solid var(--record-line);
+  }
+
+  .record-divider h2 {
+    margin: 0;
+    color: var(--record-accent);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
   .record-section.compact {
     background: transparent;
     padding: 0;
@@ -246,6 +239,36 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .record-list.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 22px;
+  }
+
+  .record-list.grid li:nth-child(1),
+  .record-list.grid li:nth-child(2) {
+    border-top: 0;
+  }
+
+  .record-list.grid li.record-full {
+    grid-column: 1 / -1;
+  }
+
+  .record-list.grid-five {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0 18px;
+  }
+
+  .record-list.grid-five li {
+    border-top: 0;
+  }
+
+  .record-list.grid-five .record-item-title {
+    font-size: 15px;
+    line-height: 1.35;
   }
 
   .record-list li {
@@ -349,6 +372,19 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
+    .record-list.grid,
+    .record-list.grid-five {
+      grid-template-columns: 1fr;
+    }
+
+    .record-list.grid li:nth-child(2) {
+      border-top: 1px solid var(--record-line);
+    }
+
+    .record-list.grid-five li + li {
+      border-top: 1px solid var(--record-line);
+    }
+
     .record-hero {
       grid-template-columns: 1fr;
     }
@@ -413,7 +449,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <div>
         <p class="record-kicker">June 2025 - July 2026</p>
         <h1>Developer Relations<br>at Prolific</h1>
-        <p class="record-summary">Built Prolific's developer relations function from the ground up, spanning technical content, community, open source, events, internal enablement, and GTM support. This work helped shape the direction of DevRel at Prolific and was recognized with the <strong>"We Embrace Change" award</strong>.</p>
+        <p class="record-summary">Built Prolific's developer relations function from the ground up, spanning technical content, community, open source, events, internal enablement, and GTM support. This work was recognized with the <strong>"We Embrace Change" award</strong> for driving transformative change and shaping Prolific's direction.</p>
       </div>
       <div class="record-portrait">
         <img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific">
@@ -421,18 +457,15 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     </header>
 
     <section class="record-carousel" aria-label="Photo highlights">
-      <div class="record-carousel-head">
-        <span aria-hidden="true">&larr; &rarr;</span>
-      </div>
       <div class="record-carousel-track">
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
-        <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
+        <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
         <div class="record-slide"><img src="/devrel/assets/prolific-ai-hackathon-demo-station.jpg" alt="Prolific AI hackathon demo station"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-dev-25-nyc-team.jpg" alt="Viviana Marquez with Prolific team at AI Dev 25 NYC"></div>
-        <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-demo.jpg" alt="Viviana Marquez giving a Prolific AI conference booth demo"></div>
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-conversation.jpg" alt="Viviana Marquez in a Prolific AI conference booth conversation"></div>
+        <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-demo.jpg" alt="Viviana Marquez giving a Prolific AI conference booth demo"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-team.jpg" alt="Viviana Marquez with Prolific booth team at AI conference"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-frontier-ai-evals-panel.jpg" alt="Viviana Marquez on Frontier AI Evals panel"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
@@ -443,8 +476,8 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <div class="record-stat"><strong>0 &rarr; 1</strong><span>DevRel function</span></div>
       <div class="record-stat"><strong>12+</strong><span>Open-source repos</span></div>
       <div class="record-stat"><strong>+15</strong><span>Events</span></div>
-      <div class="record-stat"><strong>39k &rarr; 175k</strong><span><a href="https://www.linkedin.com/in/vivianamarquez/">LinkedIn</a> audience</span></div>
-      <div class="record-stat"><strong>0 &rarr; ~2k</strong><span><a href="https://luma.com/prolific?period=past">Luma</a> followers</span></div>
+      <div class="record-stat"><strong>39k &rarr; 175k</strong><span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/prolific-com/">LinkedIn</a> audience</span></div>
+      <div class="record-stat"><strong>0 &rarr; ~2k</strong><span><a target="_blank" rel="noopener noreferrer" href="https://luma.com/prolific?period=past">Luma</a> followers</span></div>
     </section>
 
     <nav class="record-nav" aria-label="Page sections">
@@ -459,37 +492,70 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <a href="#misc">Misc</a>
     </nav>
 
+    <div class="record-divider" aria-hidden="true">
+      <h2>Content</h2>
+    </div>
+
     <section class="record-section" id="open-source">
       <h2>GitHub Open-Source Repos</h2>
       <p class="record-note">Public examples, demos, templates, and developer-facing workflows.</p>
-      <ul class="record-list">
-        <li><p class="record-item-title">Post-training with Prolific</p><p class="record-item-desc">Reference workflow for SFT, DPO, and human feedback with Prolific.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/hitl-llm-post-training">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Smart Glasses POV Video Collection</p><p class="record-item-desc">Video collection workflow for embodied AI and POV data collection.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-smart-glasses-pov-video-collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">CLI <span class="record-tag">contributed</span></p><p class="record-item-desc">Developer tooling and setup path for working with Prolific from the command line.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/cli">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Skills <span class="record-tag">contributed</span></p><p class="record-item-desc">Reusable workflow examples and skill-based project structure.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/skills">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Free Text Collection</p><p class="record-item-desc">AI Task Builder template for collecting open-ended text responses.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/AI-Task-Builder-Free-Text-Collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Image Collection <span class="record-tag">contributed</span></p><p class="record-item-desc">AI Task Builder workflow for image collection tasks.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/AI-Task-Builder-Image-Collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">RLHF Data Collection Pipeline</p><p class="record-item-desc">Pipeline for collecting human feedback and preference data.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/rlhf_data_collection_pipeline_aitb">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Secured External URL</p><p class="record-item-desc">Demo for secure external study links.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-secure-links-demo">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific External Study Link</p><p class="record-item-desc">Getting-started path for external study workflows.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-external-study-link-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific's AI Task Builder</p><p class="record-item-desc">Introductory guide for using AI Task Builder.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-ai-task-builder-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Survey</p><p class="record-item-desc">Getting-started survey workflow.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/prolific-survey-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Org description README</p><p class="record-item-desc">Created the GitHub organization description README.</p><p class="record-item-meta"><a href="https://github.com/prolific-oss/">GitHub org</a></p></li>
-        <li><p class="record-item-title">Among Bots demo</p><p class="record-item-desc">Demo using Deliberate Labs.</p></li>
+      <ul class="record-list grid">
+        <li><p class="record-item-title">Post-training with Prolific</p><p class="record-item-desc">Reference workflow showing how to integrate Prolific human feedback into post-training pipelines, including SFT, DPO, and Tinker.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/hitl-llm-post-training">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Smart Glasses POV Video Collection</p><p class="record-item-desc">Video collection workflow for embodied AI and POV data collection.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-smart-glasses-pov-video-collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">CLI <span class="record-tag">contributed</span></p><p class="record-item-desc">Developer tooling and setup path for working with Prolific from the command line.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/cli">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Skills <span class="record-tag">contributed</span></p><p class="record-item-desc">Tooling for people to use Prolific through the Skills workflow format developers were adopting for agentic coding and task automation.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/skills">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Free Text Collection</p><p class="record-item-desc">AI Task Builder template for collecting open-ended text responses.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Free-Text-Collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Image Collection <span class="record-tag">contributed</span></p><p class="record-item-desc">AI Task Builder template for collecting image responses.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Image-Collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">RLHF Data Collection Pipeline</p><p class="record-item-desc">Pipeline for collecting human feedback and preference data.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/rlhf_data_collection_pipeline_aitb">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Secured External URL</p><p class="record-item-desc">Demo showing how to send Prolific participants to an external data collection platform securely, while preserving participant validation and study control.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-secure-links-demo">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific External Study Link</p><p class="record-item-desc">Getting-started guide for running Prolific studies on external tools, so researchers can collect data outside Prolific while still recruiting Prolific participants.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-external-study-link-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific's AI Task Builder</p><p class="record-item-desc">Introductory guide for using Prolific's AI Task Builder feature.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-ai-task-builder-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Survey</p><p class="record-item-desc">Getting-started survey template for collecting structured responses from Prolific participants.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-survey-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Among Bots demo</p><p class="record-item-desc"><a target="_blank" rel="noopener noreferrer" href="https://deliberate-lab.appspot.com/">Deliberate Labs</a> is a social research platform from Google DeepMind's PAIR Lab. I ran an Among Bots game where Prolific participants tried to detect the LLM, showcasing how social research scientists can integrate Prolific human participants into interactive research experiences.</p></li>
       </ul>
     </section>
+
+    <section class="record-section" id="content">
+      <h2>YouTube Videos</h2>
+      <p class="record-note">Videos were handled end-to-end: scripting, filming, editing, and publishing.</p>
+      <ul class="record-list">
+        <li><p class="record-item-title">How to Post-Train an LLM: SFT, DPO, Human Feedback with Prolific</p><p class="record-item-desc">Technical walkthrough connecting supervised fine-tuning, preference optimization, and human feedback workflows to Prolific.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=vh6jUmuXLhU">YouTube</a></p></li>
+        <li><p class="record-item-title">How to Install Prolific's CLI Using GitHub</p><p class="record-item-desc">Setup-oriented developer tutorial for getting started with Prolific's command-line tooling.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=rUCeI8Yv__g">YouTube</a></p></li>
+      </ul>
+    </section>
+
+    <section class="record-section" id="podcast">
+      <h2>Podcast</h2>
+      <ul class="record-list">
+        <li><p class="record-item-title">Can Digital Twins Evaluate Agentic AI? ft. Dr Dakuo Wang</p><p class="record-item-desc">Interview with Dr. Dakuo Wang on digital twins, agentic AI, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-zm3ZPLUsCA">YouTube</a></p></li>
+        <li><p class="record-item-title">Humans as AI Managers: Our Evolving Role in the Era of Experience</p><p class="record-item-desc">Conversation on how human roles shift as AI systems become more capable and experience-driven.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://lnkd.in/edPPFTMJ">LinkedIn</a></p></li>
+      </ul>
+    </section>
+
+    <section class="record-section" id="blogs">
+      <h2>Blog Posts</h2>
+      <ul class="record-list">
+        <li><p class="record-item-title">When does autoresearch need a human?</p><p class="record-item-desc">Explores when automated research workflows still need human judgment, oversight, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/blog/ProlificAI/autoresearch-hitl-experiment">Hugging Face</a></p></li>
+        <li><p class="record-item-title">How the best AI teams evaluate at speed: Lessons from Microsoft, Amazon, and Braintrust</p><p class="record-item-desc">Recap and synthesis of how AI teams approach evaluation workflows at speed.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.prolific.com/resources/how-the-best-ai-teams-evaluate-at-speed-lessons-from-microsoft-amazon-and-braintrust">Prolific</a></p></li>
+        <li><p class="record-item-title">Your AI agent is optimized to finish. That's not always what you need</p><p class="record-item-desc">Argues for human judgment and task design when agents optimize for completion over quality.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.humanx.co/us/blog/your-ai-agent-is-optimized-to-finish">HumanX</a></p></li>
+      </ul>
+    </section>
+
+    <div class="record-divider" aria-hidden="true">
+      <h2>Events</h2>
+    </div>
 
     <section class="record-section" id="meetups">
       <h2>Meetups</h2>
       <p class="record-note">End-to-end: logistics, speaker outreach, marketing, hosting, and GTM lead handoff.</p>
-      <ul class="record-list">
-        <li><p class="record-item-title">Operationalizing Agents w/ AI | Prolific</p><p class="record-item-desc">Featuring researchers from Google Research, Google DeepMind, and Snowflake.</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a href="https://luma.com/2x62tiuu">Luma</a></p></li>
-        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Amazon, Braintrust, and Microsoft.</p><p class="record-item-meta">📍 Seattle · 🗓️ May 2026 · 🔗 <a href="https://luma.com/ljfk2sxn">Luma</a></p></li>
-        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Google DeepMind, Cohere, and LinkedIn.</p><p class="record-item-meta">📍 New York · 🗓️ Mar 2026 · 🔗 <a href="https://luma.com/0qusb8j8">Luma</a></p></li>
-        <li><p class="record-item-title">What 25,000 Humans Really Think About AI | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Dec 2025 · 🔗 <a href="https://luma.com/0zbx2brz">Luma</a></p></li>
-        <li><p class="record-item-title">Beyond the Benchmark | Prolific</p><p class="record-item-desc">Featuring researchers from Inflection AI.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Nov 2025 · 🔗 <a href="https://luma.com/772frd2b">Luma</a></p></li>
-        <li><p class="record-item-title">Researchers Building Real-World AI Tooling | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific, USF, and Stanford.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a href="https://luma.com/tyue3bfq">Luma</a></p></li>
-        <li><p class="record-item-title">Strategic dinner events</p><p class="record-item-desc">Relationship-building dinners for AI and research audiences.</p><p class="record-item-meta">📍 San Francisco, NYC, Seattle · 🗓️ 2025-2026</p></li>
+      <ul class="record-list grid">
+        <li><p class="record-item-title">Operationalizing Agents | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Google Research, Google DeepMind, and Snowflake.</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/2x62tiuu">Luma</a></p></li>
+        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Amazon, Braintrust, and Microsoft.</p><p class="record-item-meta">📍 Seattle · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/ljfk2sxn">Luma</a></p></li>
+        <li><p class="record-item-title">Frontier Evals | Prolific x AI Circle</p><p class="record-item-desc">Featuring researchers from Google DeepMind, Cohere, and LinkedIn.</p><p class="record-item-meta">📍 New York · 🗓️ Mar 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/0qusb8j8">Luma</a></p></li>
+        <li><p class="record-item-title">What 25,000 Humans Really Think About AI | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Dec 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/0zbx2brz">Luma</a></p></li>
+        <li><p class="record-item-title">Beyond the Benchmark | Prolific</p><p class="record-item-desc">Featuring researchers from Inflection AI.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Nov 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/772frd2b">Luma</a></p></li>
+        <li><p class="record-item-title">Researchers Building Real-World AI Tooling | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific, USF, and Stanford.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/tyue3bfq">Luma</a></p></li>
+        <li class="record-full"><p class="record-item-title">Strategic dinner events</p><p class="record-item-desc">Relationship-building dinners for AI and research audiences.</p><p class="record-item-meta">📍 San Francisco, New York, Seattle · 🗓️ 2025-2026</p></li>
       </ul>
     </section>
 
@@ -498,50 +564,24 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <p class="record-note">Lead conferences included logistics, contract, marketing, booth, and GTM lead handoff.</p>
       <h3 class="record-subhead">Lead</h3>
       <ul class="record-list">
-        <li><p class="record-item-title">AI Developer Conference by DeepLearning.AI</p><p class="record-item-meta">📍 San Francisco · 🗓️ Apr 2026 · 🔗 <a href="https://www.linkedin.com/posts/prolific-com_meet-us-at-ai-dev-conf-x-sf-prolific-ugcPost-7455300072084488192-OgHj">LinkedIn</a></p></li>
+        <li><p class="record-item-title">AI Developer Conference by DeepLearning.AI</p><p class="record-item-meta">📍 San Francisco · 🗓️ Apr 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/prolific-com_meet-us-at-ai-dev-conf-x-sf-prolific-ugcPost-7455300072084488192-OgHj">LinkedIn</a></p></li>
         <li><p class="record-item-title">AI Developer Conference by DeepLearning.AI</p><p class="record-item-meta">📍 New York · 🗓️ Nov 2025</p></li>
       </ul>
       <h3 class="record-subhead">Support</h3>
-      <p class="record-inline-list">
-        <span>AI Engineer World's Fair · 📍 San Francisco · 🗓️ Jul 2026</span>
-        <span>London Tech Week · 📍 London · 🗓️ Jun 2026</span>
-        <span>ICLR · 📍 Rio de Janeiro · 🗓️ May 2026</span>
-        <span>Human X · 📍 San Francisco · 🗓️ Apr 2026</span>
-        <span>AI Engine Summer Hack · 📍 London · 🗓️ Aug 2025</span>
-      </p>
-    </section>
-
-    <section class="record-section" id="content">
-      <h2>YouTube Videos</h2>
-      <p class="record-note">Videos were handled end-to-end: scripting, filming, editing, and publishing.</p>
-      <ul class="record-list">
-        <li><p class="record-item-title">How to Post-Train an LLM: SFT, DPO, Human Feedback with Prolific</p><p class="record-item-meta">🔗 <a href="https://www.youtube.com/watch?v=vh6jUmuXLhU">YouTube</a></p></li>
-        <li><p class="record-item-title">How to Install Prolific's CLI Using GitHub</p><p class="record-item-meta">🔗 <a href="https://www.youtube.com/watch?v=rUCeI8Yv__g">YouTube</a></p></li>
-      </ul>
-    </section>
-
-    <section class="record-section" id="blogs">
-      <h2>Blog Posts</h2>
-      <ul class="record-list">
-        <li><p class="record-item-title">When does autoresearch need a human?</p><p class="record-item-meta">🔗 <a href="https://huggingface.co/blog/ProlificAI/autoresearch-hitl-experiment">Hugging Face</a></p></li>
-        <li><p class="record-item-title">How the best AI teams evaluate at speed: Lessons from Microsoft, Amazon, and Braintrust</p><p class="record-item-meta">🔗 <a href="https://www.prolific.com/resources/how-the-best-ai-teams-evaluate-at-speed-lessons-from-microsoft-amazon-and-braintrust">Prolific</a></p></li>
-        <li><p class="record-item-title">Your AI agent is optimized to finish. That's not always what you need</p><p class="record-item-meta">🔗 <a href="https://www.humanx.co/us/blog/your-ai-agent-is-optimized-to-finish">HumanX</a></p></li>
-      </ul>
-    </section>
-
-    <section class="record-section" id="podcast">
-      <h2>Podcast</h2>
-      <ul class="record-list">
-        <li><p class="record-item-title">Can Digital Twins Evaluate Agentic AI? ft. Dr Dakuo Wang</p><p class="record-item-meta">🔗 <a href="https://www.youtube.com/watch?v=-zm3ZPLUsCA">YouTube</a></p></li>
-        <li><p class="record-item-title">Humans as AI Managers: Our Evolving Role in the Era of Experience</p><p class="record-item-meta">🔗 <a href="https://lnkd.in/edPPFTMJ">LinkedIn</a></p></li>
+      <ul class="record-list grid-five">
+        <li><p class="record-item-title">AI Engineer World's Fair</p><p class="record-item-meta">📍 San Francisco<br>🗓️ Jul 2026</p></li>
+        <li><p class="record-item-title">London Tech Week</p><p class="record-item-meta">📍 London<br>🗓️ Jun 2026</p></li>
+        <li><p class="record-item-title">ICLR</p><p class="record-item-meta">📍 Rio de Janeiro<br>🗓️ May 2026</p></li>
+        <li><p class="record-item-title">Human X</p><p class="record-item-meta">📍 San Francisco<br>🗓️ Apr 2026</p></li>
+        <li><p class="record-item-title">AI Engine Summer Hack</p><p class="record-item-meta">📍 London<br>🗓️ Aug 2025</p></li>
       </ul>
     </section>
 
     <section class="record-section" id="hackathons">
       <h2>Hackathons</h2>
       <ul class="record-list">
-        <li><p class="record-item-title">UC Berkeley EMBA students x USF MSDS students</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026 · 🔗 <a href="https://www.linkedin.com/posts/tmrh_sf-prolific-rossgeller-activity-7474091193195270144-pidA">LinkedIn</a></p></li>
-        <li><p class="record-item-title">Memories.ai Hackathon partnership</p><p class="record-item-meta">📍 London &amp; San Francisco · 🗓️ Sep-Oct 2025 · 🔗 <a href="https://luma.com/iu37305e">London Luma</a> · <a href="https://luma.com/fqne87rp">San Francisco Luma</a></p></li>
+        <li><p class="record-item-title">UC Berkeley EMBA students x USF MSDS students</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/tmrh_sf-prolific-rossgeller-activity-7474091193195270144-pidA">LinkedIn</a></p></li>
+        <li><p class="record-item-title">Memories.ai Hackathon partnership</p><p class="record-item-meta">📍 London &amp; San Francisco · 🗓️ Sep-Oct 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/iu37305e">London Luma</a> · <a target="_blank" rel="noopener noreferrer" href="https://luma.com/fqne87rp">San Francisco Luma</a></p></li>
       </ul>
     </section>
 
@@ -550,11 +590,15 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <ul class="record-list">
         <li><p class="record-item-title">AJCU Provosts AI Leadership and Transformation Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">USF Alumni Panel</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">The LLM Lifecycle at PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a href="https://luma.com/z9px4nbg">Luma</a></p></li>
-        <li><p class="record-item-title">From Code to Connection at Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a href="https://luma.com/1k8djkt9">Luma</a></p></li>
-        <li><p class="record-item-title">AI &amp; Language at Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
+        <li><p class="record-item-title">The LLM Lifecycle at PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
+        <li><p class="record-item-title">From Code to Connection at Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
+        <li><p class="record-item-title">AI &amp; Language at Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
       </ul>
     </section>
+
+    <div class="record-divider" aria-hidden="true">
+      <h2>Misc</h2>
+    </div>
 
     <section class="record-section" id="misc">
       <h2>Misc</h2>
