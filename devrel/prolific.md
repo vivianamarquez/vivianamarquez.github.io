@@ -4,6 +4,8 @@ title: Developer Relations at Prolific
 subtitle: Building Prolific's DevRel function from the ground up
 meta-title: Viviana Marquez | Prolific DevRel Record
 meta-description: "A reference page listing Viviana Marquez's Developer Relations work at Prolific across open source, events, content, speaking, internal enablement, and GTM support."
+meta-keywords: "Viviana Marquez, Prolific, Developer Relations, DevRel, AI community, AI events, open source, human feedback, RLHF, AI evaluation, AI Task Builder, technical content, developer advocacy"
+share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg"
 ---
 
 <style>
@@ -371,6 +373,40 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   }
 </style>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "Developer Relations at Prolific",
+  "description": "A reference record of Viviana Marquez's Developer Relations work at Prolific from June 2025 to July 2026 across open source, AI community events, technical content, speaking, internal enablement, and GTM support.",
+  "url": "https://vivianamarquez.com/devrel/prolific/",
+  "image": "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg",
+  "about": {
+    "@type": "Person",
+    "name": "Viviana Marquez",
+    "jobTitle": "Developer Relations Engineer",
+    "url": "https://vivianamarquez.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/vivianamarquez/",
+      "https://github.com/vivianamarquez"
+    ]
+  },
+  "mainEntity": {
+    "@type": "CreativeWork",
+    "name": "Prolific Developer Relations record",
+    "keywords": [
+      "Developer Relations",
+      "Prolific",
+      "AI community",
+      "Open source",
+      "Human feedback",
+      "AI evaluation",
+      "Technical content"
+    ]
+  }
+}
+</script>
+
 <main class="prolific-record">
   <div class="record-wrap">
     <header class="record-hero">
@@ -390,7 +426,6 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       </div>
       <div class="record-carousel-track">
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
-        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
         <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
@@ -400,6 +435,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-conversation.jpg" alt="Viviana Marquez in a Prolific AI conference booth conversation"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-team.jpg" alt="Viviana Marquez with Prolific booth team at AI conference"></div>
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-frontier-ai-evals-panel.jpg" alt="Viviana Marquez on Frontier AI Evals panel"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
       </div>
     </section>
 
