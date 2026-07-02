@@ -34,11 +34,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   }
 
   .record-hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 220px;
-    gap: 34px;
-    align-items: end;
-    padding-bottom: 34px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--record-line);
   }
 
@@ -46,7 +42,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
     margin: 0 0 12px;
     color: var(--record-accent);
     font-size: 12px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
   }
@@ -54,28 +50,51 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   .record-hero h1 {
     margin: 0;
     max-width: 760px;
-    font-size: clamp(36px, 6vw, 70px);
-    line-height: 1.02;
+    font-size: clamp(34px, 5.6vw, 62px);
+    line-height: 1.06;
     letter-spacing: 0;
+    font-weight: 600;
   }
 
   .record-summary {
     margin: 20px 0 0;
     max-width: 760px;
     color: var(--record-muted);
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.55;
   }
 
-  .record-portrait {
-    aspect-ratio: 1;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid var(--record-line);
-    background: var(--record-tint);
+  .record-carousel {
+    margin: 22px 0 20px;
   }
 
-  .record-portrait img {
+  .record-carousel-track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(240px, 34%);
+    gap: 10px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    padding: 0 0 10px;
+    scrollbar-width: thin;
+  }
+
+  .record-slide {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--record-tint);
+    border: 1px solid var(--record-line);
+    scroll-snap-align: start;
+  }
+
+  .record-slide.tall {
+    aspect-ratio: 3 / 4;
+  }
+
+  .record-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -85,23 +104,33 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
   .record-stats {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 10px;
-    margin: 22px 0 10px;
+    margin: 18px 0 10px;
   }
 
   .record-stat {
+    display: block;
     padding: 14px;
     background: var(--record-panel);
     border: 1px solid var(--record-line);
     border-radius: 8px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a.record-stat:hover,
+  a.record-stat:focus {
+    border-color: rgba(155, 47, 109, 0.36);
+    box-shadow: 0 8px 24px rgba(31, 25, 48, 0.07);
   }
 
   .record-stat strong {
     display: block;
     margin-bottom: 4px;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1;
+    font-weight: 600;
   }
 
   .record-stat span {
@@ -124,7 +153,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
     border: 1px solid var(--record-line);
     border-radius: 6px;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
   }
 
@@ -151,9 +180,10 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
 
   .record-section h2 {
     margin: 0 0 8px;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 1.15;
     letter-spacing: 0;
+    font-weight: 600;
   }
 
   .record-note {
@@ -184,7 +214,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   .record-label {
     color: var(--record-muted);
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.45;
   }
 
@@ -194,7 +224,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   }
 
   .record-main strong {
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .record-main a {
@@ -223,34 +253,8 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
     background: var(--record-accent-soft);
     border-radius: 999px;
     font-size: 11px;
-    font-weight: 800;
+    font-weight: 700;
     vertical-align: 1px;
-  }
-
-  .record-photo-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  .record-photo {
-    position: relative;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    border-radius: 8px;
-    background: var(--record-tint);
-    border: 1px solid var(--record-line);
-  }
-
-  .record-photo.tall {
-    aspect-ratio: 3 / 4;
-  }
-
-  .record-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
   }
 
   @media (max-width: 820px) {
@@ -258,17 +262,12 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       padding-top: 92px;
     }
 
-    .record-hero {
-      grid-template-columns: 1fr;
-    }
-
-    .record-portrait {
-      width: 180px;
-    }
-
-    .record-stats,
-    .record-photo-grid {
+    .record-stats {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .record-carousel-track {
+      grid-auto-columns: minmax(220px, 68%);
     }
 
     .record-list li {
@@ -282,8 +281,7 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       padding: 20px;
     }
 
-    .record-stats,
-    .record-photo-grid {
+    .record-stats {
       grid-template-columns: 1fr;
     }
   }
@@ -293,20 +291,35 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
   <div class="record-wrap">
     <header class="record-hero">
       <div>
-        <p class="record-kicker">Developer Relations at Prolific</p>
-        <h1>A reference record of my Prolific DevRel work.</h1>
+        <p class="record-kicker">June 2025 - July 2026</p>
+        <h1>Developer Relations at Prolific</h1>
         <p class="record-summary">Built Prolific's developer relations function from zero across technical content, community, open source, events, internal enablement, and GTM support. Recognized with the "We Embrace Change" award for shaping its direction.</p>
       </div>
-      <div class="record-portrait">
-        <img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific">
-      </div>
     </header>
+
+    <section class="record-carousel" aria-label="Photo highlights">
+      <div class="record-carousel-track">
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific"></div>
+        <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
+        <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
+        <div class="record-slide"><img src="/devrel/assets/prolific-ai-hackathon-demo-station.jpg" alt="Prolific AI hackathon demo station"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-dev-25-nyc-team.jpg" alt="Viviana Marquez with Prolific team at AI Dev 25 NYC"></div>
+        <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-demo.jpg" alt="Viviana Marquez giving a Prolific AI conference booth demo"></div>
+        <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-conversation.jpg" alt="Viviana Marquez in a Prolific AI conference booth conversation"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-team.jpg" alt="Viviana Marquez with Prolific booth team at AI conference"></div>
+        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-frontier-ai-evals-panel.jpg" alt="Viviana Marquez on Frontier AI Evals panel"></div>
+      </div>
+    </section>
 
     <section class="record-stats" aria-label="Highlights">
       <div class="record-stat"><strong>0 &rarr; 1</strong><span>DevRel function</span></div>
       <div class="record-stat"><strong>12+</strong><span>Open-source repos</span></div>
-      <div class="record-stat"><strong>2k</strong><span>Luma followers</span></div>
-      <div class="record-stat"><strong>175k</strong><span>LinkedIn audience</span></div>
+      <a class="record-stat" href="https://luma.com/prolific?period=past"><strong>0 &rarr; ~2k</strong><span>Luma followers</span></a>
+      <a class="record-stat" href="https://www.linkedin.com/in/vivianamarquez/"><strong>39k &rarr; 175k</strong><span>LinkedIn audience</span></a>
+      <div class="record-stat"><strong>+15</strong><span>Events</span></div>
     </section>
 
     <nav class="record-nav" aria-label="Page sections">
@@ -318,7 +331,6 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       <a href="#hackathons">Hackathons</a>
       <a href="#speaking">Speaking</a>
       <a href="#misc">Misc</a>
-      <a href="#photos">Photos</a>
     </nav>
 
     <section class="record-section" id="open-source">
@@ -416,22 +428,5 @@ meta-description: "A reference page listing Viviana Marquez's Developer Relation
       </ul>
     </section>
 
-    <section class="record-section compact" id="photos">
-      <h2>Photo References</h2>
-      <p class="record-note">A compact visual record of events, panels, conference booths, demos, podcast work, and recognition.</p>
-      <div class="record-photo-grid" aria-label="Prolific photo references">
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolific-we-embrace-change-award.jpg" alt="Viviana Marquez receiving Prolific We Embrace Change award"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg" alt="Viviana Marquez speaking onstage at Prolific"></div>
-        <div class="record-photo"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
-        <div class="record-photo tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
-        <div class="record-photo"><img src="/devrel/assets/prolific-ai-hackathon-demo-station.jpg" alt="Prolific AI hackathon demo station"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolific-ai-dev-25-nyc-team.jpg" alt="Viviana Marquez with Prolific team at AI Dev 25 NYC"></div>
-        <div class="record-photo tall"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-demo.jpg" alt="Viviana Marquez giving a Prolific AI conference booth demo"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-team.jpg" alt="Viviana Marquez with Prolific booth team at AI conference"></div>
-        <div class="record-photo"><img src="/devrel/assets/viviana-marquez-frontier-ai-evals-panel.jpg" alt="Viviana Marquez on Frontier AI Evals panel"></div>
-      </div>
-    </section>
   </div>
 </main>
