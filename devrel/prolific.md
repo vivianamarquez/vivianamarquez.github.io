@@ -668,6 +668,10 @@ meta-description: "A portfolio case study of Viviana Marquez's Developer Relatio
           <img src="/devrel/assets/viviana-marquez-prolific-ai-dev-25-nyc-team.jpg" alt="Viviana Marquez with Prolific team at AI Dev 25 NYC conference">
           <figcaption class="prolific-caption">AI Dev 25 NYC with the Prolific conference team.</figcaption>
         </figure>
+        <figure class="prolific-photo tall">
+          <img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-demo.jpg" alt="Viviana Marquez giving a Prolific AI conference booth demo">
+          <figcaption class="prolific-caption">Live booth demos connecting Prolific workflows to AI builder use cases.</figcaption>
+        </figure>
         <figure class="prolific-photo medium">
           <img src="/devrel/assets/viviana-marquez-prolific-ai-conference-booth-team.jpg" alt="Viviana Marquez with Prolific booth team at AI conference">
           <figcaption class="prolific-caption">Conference booth presence for Prolific's human intelligence lab message.</figcaption>
