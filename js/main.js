@@ -67,10 +67,34 @@ var main = {
     // show the big header image
     main.initImgs();
 
-    // Open site links in a new tab, while preserving same-page jump links.
-    $("a[href]").not("[href^='#']").attr({
-      target: "_blank",
-      rel: "noopener noreferrer"
+    // Open external links in a new tab, while keeping same-site navigation in place.
+    $("a[href]").each(function() {
+      var link = this;
+      var href = link.getAttribute("href");
+
+      if (!href || href.charAt(0) === "#") {
+        return;
+      }
+
+      var url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+
+      if (url.protocol === "http:" || url.protocol === "https:") {
+        var currentHost = window.location.hostname.replace(/^www\./, "");
+        var linkHost = url.hostname.replace(/^www\./, "");
+
+        if (linkHost && linkHost !== currentHost) {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer");
+        } else {
+          link.removeAttribute("target");
+          link.removeAttribute("rel");
+        }
+      }
     });
   },
 
