@@ -129,6 +129,13 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     display: block;
   }
 
+  .record-slide.focus-speakers img {
+    width: 122%;
+    max-width: none;
+    object-position: 68% center;
+    transform: translateX(-18%);
+  }
+
   .record-stats {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -510,7 +517,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     <section class="record-carousel" aria-label="Photo highlights">
       <div class="record-carousel-track">
         <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolificon-ai-community-audience.jpg" alt="Viviana Marquez speaking to a Prolific AI community audience"></div>
-        <div class="record-slide"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
+        <div class="record-slide focus-speakers"><img src="/devrel/assets/viviana-marquez-prolific-ai-meetup-panel-speaker.jpg" alt="Viviana Marquez on a Prolific AI meetup panel"></div>
         <div class="record-slide"><img src="/devrel/assets/prolific-ai-meetup-community-audience.jpg" alt="Prolific AI meetup audience"></div>
         <div class="record-slide tall"><img src="/devrel/assets/viviana-marquez-humanx-agentic-ai-podcast-interview.jpg" alt="Viviana Marquez recording an agentic AI podcast interview"></div>
         <div class="record-slide"><img src="/devrel/assets/prolific-ai-hackathon-demo-station.jpg" alt="Prolific AI hackathon demo station"></div>
