@@ -347,8 +347,13 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   }
 
   .record-subhead {
+    display: inline-block;
     margin: 24px 0 4px;
+    padding: 5px 9px;
     color: var(--record-accent);
+    background: var(--record-accent-soft);
+    border: 1px solid rgba(155, 47, 109, 0.16);
+    border-radius: 6px;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -623,14 +628,14 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <h2>Hackathons</h2>
       <ul class="record-list">
         <li><p class="record-item-title">UC Berkeley EMBA students x USF MSDS students</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/posts/tmrh_sf-prolific-rossgeller-activity-7474091193195270144-pidA">LinkedIn</a></p></li>
-        <li><p class="record-item-title">Memories.ai Hackathon partnership</p><p class="record-item-meta">📍 London &amp; San Francisco · 🗓️ Sep-Oct 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/iu37305e">London Luma</a> · <a target="_blank" rel="noopener noreferrer" href="https://luma.com/fqne87rp">San Francisco Luma</a></p></li>
+        <li><p class="record-item-title">Memories.ai Hackathon partnership</p><p class="record-item-meta">📍 London &amp; San Francisco · 🗓️ Sep - Oct 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/iu37305e">London Luma</a> · <a target="_blank" rel="noopener noreferrer" href="https://luma.com/fqne87rp">San Francisco Luma</a></p></li>
       </ul>
     </section>
 
     <section class="record-section" id="speaking">
       <h2>Guest Speaker Engagements Representing Prolific</h2>
       <ul class="record-list grid">
-        <li><p class="record-item-title">AJCU Provosts AI Leadership and Transformation Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
+        <li><p class="record-item-title">AJCU Provosts AI Leadership Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">USF Alumni Panel at the Data Science Conference</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
         <li><p class="record-item-title">Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
