@@ -278,6 +278,14 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     grid-column: 1 / -1;
   }
 
+  .record-list.grid-three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .record-list.grid-three li:nth-child(3) {
+    border-top: 0;
+  }
+
   .record-list.grid-five {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -427,7 +435,8 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       grid-template-columns: 1fr;
     }
 
-    .record-list.grid li:nth-child(2) {
+    .record-list.grid li:nth-child(2),
+    .record-list.grid-three li:nth-child(3) {
       border-top: 1px solid var(--record-line);
     }
 
@@ -535,7 +544,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <div class="record-nav-group">
         <span class="record-nav-label">Content</span>
         <a href="#open-source">Open Source</a>
-        <a href="#content">YouTube</a>
+        <a href="#content">Videos</a>
         <a href="#podcast">Podcast</a>
         <a href="#blogs">Blogs</a>
       </div>
@@ -577,11 +586,12 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     </section>
 
     <section class="record-section" id="content">
-      <h2>YouTube Videos</h2>
+      <h2>Videos</h2>
       <p class="record-note">Videos were handled end-to-end: scripting, filming, editing, and publishing.</p>
-      <ul class="record-list grid">
+      <ul class="record-list grid grid-three">
         <li><p class="record-item-title">How to Post-Train an LLM: SFT, DPO, Human Feedback with Prolific</p><p class="record-item-desc">Technical walkthrough connecting supervised fine-tuning, preference optimization, and human feedback workflows to Prolific.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=vh6jUmuXLhU">YouTube</a></p></li>
         <li><p class="record-item-title">How to Install Prolific's CLI Using GitHub</p><p class="record-item-desc">Setup-oriented developer tutorial for getting started with Prolific's command-line tooling.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=rUCeI8Yv__g">YouTube</a></p></li>
+        <li><p class="record-item-title">Collect real first-person video data for AI using Prolific</p><p class="record-item-desc">Video walkthrough for collecting first-person video data for AI workflows with Prolific.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/feed/update/urn:li:activity:7478626255219621888">LinkedIn</a></p></li>
       </ul>
     </section>
 
