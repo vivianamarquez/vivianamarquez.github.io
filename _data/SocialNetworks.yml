@@ -21,6 +21,11 @@ twitter:
   baseURL: "https://twitter.com/"
   icon: "bx bxl-twitter"
 
+x:
+  name: "X"
+  baseURL: "https://x.com/"
+  icon: "bi bi-twitter-x"
+
 reddit:
   name: "Reddit"
   baseURL: "https://reddit.com/u/"
