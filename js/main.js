@@ -66,6 +66,12 @@ var main = {
 
     // show the big header image
     main.initImgs();
+
+    // Open site links in a new tab, while preserving same-page jump links.
+    $("a[href]").not("[href^='#']").attr({
+      target: "_blank",
+      rel: "noopener noreferrer"
+    });
   },
 
   initImgs : function() {
