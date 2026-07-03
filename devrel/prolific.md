@@ -2,9 +2,9 @@
 layout: base
 title: Developer Relations at Prolific
 subtitle: Building Prolific's DevRel function from the ground up
-meta-title: Viviana Marquez | Prolific DevRel Record
-meta-description: "A reference page listing Viviana Marquez's Developer Relations work at Prolific across open source, events, content, speaking, internal enablement, and GTM support."
-meta-keywords: "Viviana Marquez, Prolific, Developer Relations, DevRel, AI community, AI events, open source, human feedback, RLHF, AI evaluation, AI Task Builder, technical content, developer advocacy"
+meta-title: Viviana Márquez | Prolific DevRel Record
+meta-description: "A reference page listing Viviana Márquez's Developer Relations work at Prolific across open source, events, content, speaking, internal enablement, and GTM support."
+meta-keywords: "Viviana Márquez, Prolific, Developer Relations, DevRel, AI community, AI events, open source, human feedback, RLHF, AI evaluation, AI Task Builder, technical content, developer advocacy"
 share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg"
 ---
 
@@ -200,14 +200,16 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   }
 
   .record-divider {
-    margin: 48px 0 -18px;
-    padding-top: 6px;
-    border-top: 1px solid var(--record-line);
+    margin: 50px 0 -22px;
   }
 
   .record-divider h2 {
+    display: inline-block;
     margin: 0;
+    padding: 5px 10px;
     color: var(--record-accent);
+    background: var(--record-accent-soft);
+    border-radius: 6px;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -230,7 +232,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   .record-note {
     margin: 0 0 20px;
-    color: var(--record-muted);
+    color: var(--record-accent);
     font-size: 15px;
     line-height: 1.55;
   }
@@ -414,12 +416,12 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "name": "Developer Relations at Prolific",
-  "description": "A reference record of Viviana Marquez's Developer Relations work at Prolific from June 2025 to July 2026 across open source, AI community events, technical content, speaking, internal enablement, and GTM support.",
+  "description": "A reference record of Viviana Márquez's Developer Relations work at Prolific from June 2025 to July 2026 across open source, AI community events, technical content, speaking, internal enablement, and GTM support.",
   "url": "https://vivianamarquez.com/devrel/prolific/",
   "image": "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-speaking-onstage.jpg",
   "about": {
     "@type": "Person",
-    "name": "Viviana Marquez",
+    "name": "Viviana Márquez",
     "jobTitle": "Developer Relations Engineer",
     "url": "https://vivianamarquez.com",
     "sameAs": [
@@ -482,11 +484,11 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
     <nav class="record-nav" aria-label="Page sections">
       <a href="#open-source">Open Source</a>
+      <a href="#content">YouTube</a>
+      <a href="#podcast">Podcast</a>
+      <a href="#blogs">Blogs</a>
       <a href="#meetups">Meetups</a>
       <a href="#conferences">Conferences</a>
-      <a href="#content">YouTube</a>
-      <a href="#blogs">Blogs</a>
-      <a href="#podcast">Podcast</a>
       <a href="#hackathons">Hackathons</a>
       <a href="#speaking">Speaking</a>
       <a href="#misc">Misc</a>
@@ -500,18 +502,18 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <h2>GitHub Open-Source Repos</h2>
       <p class="record-note">Public examples, demos, templates, and developer-facing workflows.</p>
       <ul class="record-list grid">
-        <li><p class="record-item-title">Post-training with Prolific</p><p class="record-item-desc">Reference workflow showing how to integrate Prolific human feedback into post-training pipelines, including SFT, DPO, and Tinker.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/hitl-llm-post-training">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Smart Glasses POV Video Collection</p><p class="record-item-desc">Video collection workflow for embodied AI and POV data collection.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-smart-glasses-pov-video-collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">CLI <span class="record-tag">contributed</span></p><p class="record-item-desc">Developer tooling and setup path for working with Prolific from the command line.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/cli">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Skills <span class="record-tag">contributed</span></p><p class="record-item-desc">Tooling for people to use Prolific through the Skills workflow format developers were adopting for agentic coding and task automation.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/skills">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Free Text Collection</p><p class="record-item-desc">AI Task Builder template for collecting open-ended text responses.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Free-Text-Collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Image Collection <span class="record-tag">contributed</span></p><p class="record-item-desc">AI Task Builder template for collecting image responses.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Image-Collection">GitHub repo</a></p></li>
-        <li><p class="record-item-title">RLHF Data Collection Pipeline</p><p class="record-item-desc">Pipeline for collecting human feedback and preference data.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/rlhf_data_collection_pipeline_aitb">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Secured External URL</p><p class="record-item-desc">Demo showing how to send Prolific participants to an external data collection platform securely, while preserving participant validation and study control.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-secure-links-demo">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific External Study Link</p><p class="record-item-desc">Getting-started guide for running Prolific studies on external tools, so researchers can collect data outside Prolific while still recruiting Prolific participants.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-external-study-link-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific's AI Task Builder</p><p class="record-item-desc">Introductory guide for using Prolific's AI Task Builder feature.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-ai-task-builder-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Prolific Survey</p><p class="record-item-desc">Getting-started survey template for collecting structured responses from Prolific participants.</p><p class="record-item-meta"><a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-survey-getting-started">GitHub repo</a></p></li>
-        <li><p class="record-item-title">Among Bots demo</p><p class="record-item-desc"><a target="_blank" rel="noopener noreferrer" href="https://deliberate-lab.appspot.com/">Deliberate Labs</a> is a social research platform from Google DeepMind's PAIR Lab. I ran an Among Bots game where Prolific participants tried to detect the LLM, showcasing how social research scientists can integrate Prolific human participants into interactive research experiences.</p></li>
+        <li><p class="record-item-title">Post-training with Prolific</p><p class="record-item-desc">Reference workflow showing how to use Prolific with Tinker to collect human feedback for post-training pipelines, including SFT and DPO.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/hitl-llm-post-training">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Smart Glasses POV Video Collection</p><p class="record-item-desc">Video collection workflow for embodied AI and POV data collection.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-smart-glasses-pov-video-collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">CLI <span class="record-tag">contributed</span></p><p class="record-item-desc">Developer and agentic tooling and setup path for working with Prolific from the command line.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/cli">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Skills <span class="record-tag">contributed</span></p><p class="record-item-desc">Developer tooling for using Prolific through Skills, a portable format for packaging repeatable agentic coding and task automation workflows.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/skills">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Free Text Collection</p><p class="record-item-desc">AI Task Builder template for collecting open-ended text responses.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Free-Text-Collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Image Collection <span class="record-tag">contributed</span></p><p class="record-item-desc">AI Task Builder template for collecting image responses.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/AI-Task-Builder-Image-Collection">GitHub repo</a></p></li>
+        <li><p class="record-item-title">RLHF Data Collection Pipeline</p><p class="record-item-desc">Pipeline for collecting human feedback and preference data.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/rlhf_data_collection_pipeline_aitb">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Secured External URL</p><p class="record-item-desc">Demo showing how to send Prolific participants to an external data collection platform securely, while preserving participant validation and study control.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-secure-links-demo">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific External Study Link</p><p class="record-item-desc">Getting-started guide for running Prolific studies on external tools, so researchers can collect data outside Prolific while still recruiting Prolific participants.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-external-study-link-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific's AI Task Builder</p><p class="record-item-desc">Introductory guide for using Prolific's AI Task Builder feature.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-ai-task-builder-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Prolific Survey</p><p class="record-item-desc">Getting-started survey template for collecting structured responses from Prolific participants.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://github.com/prolific-oss/prolific-survey-getting-started">GitHub repo</a></p></li>
+        <li><p class="record-item-title">Among Bots demo</p><p class="record-item-desc">🔗 <a target="_blank" rel="noopener noreferrer" href="https://deliberate-lab.appspot.com/">Deliberate Labs</a> is a social research platform from Google DeepMind's PAIR Lab. I ran an Among Bots game as a live demo for research scientists, where Prolific participants tried to detect the LLM and showcased how human participants can power interactive social research experiences.</p></li>
       </ul>
     </section>
 
