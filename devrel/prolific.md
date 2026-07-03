@@ -604,9 +604,9 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     <section class="record-section" id="blogs">
       <h2>Blog Posts</h2>
       <ul class="record-list">
-        <li><p class="record-item-title">When does autoresearch need a human?</p><p class="record-item-desc">Explores when automated research workflows still need human judgment, oversight, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/blog/ProlificAI/autoresearch-hitl-experiment">Hugging Face</a></p></li>
+        <li><p class="record-item-title">When does autoresearch need a human? <span class="record-tag">coauthored</span></p><p class="record-item-desc">Explores when automated research workflows still need human judgment, oversight, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/blog/ProlificAI/autoresearch-hitl-experiment">Hugging Face</a></p></li>
         <li><p class="record-item-title">How the best AI teams evaluate at speed: Lessons from Microsoft, Amazon, and Braintrust</p><p class="record-item-desc">Recap and synthesis of how AI teams approach evaluation workflows at speed.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.prolific.com/resources/how-the-best-ai-teams-evaluate-at-speed-lessons-from-microsoft-amazon-and-braintrust">Prolific</a></p></li>
-        <li><p class="record-item-title">Your AI agent is optimized to finish. That's not always what you need</p><p class="record-item-desc">Argues for human judgment and task design when agents optimize for completion over quality.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.humanx.co/us/blog/your-ai-agent-is-optimized-to-finish">HumanX</a></p></li>
+        <li><p class="record-item-title">Your AI agent is optimized to finish. That's not always what you need <span class="record-tag">coauthored</span></p><p class="record-item-desc">Argues for human judgment and task design when agents optimize for completion over quality.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.humanx.co/us/blog/your-ai-agent-is-optimized-to-finish">HumanX</a></p></li>
       </ul>
     </section>
 
@@ -659,7 +659,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <ul class="record-list grid">
         <li><p class="record-item-title">AJCU Provosts AI Leadership Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">USF Alumni Panel at the Data Science Conference</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
+        <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ Apr 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
         <li><p class="record-item-title">Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
         <li><p class="record-item-title">Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
         <li><p class="record-item-title">MSRI-UP Alumni Panel at the Simons Laufer Mathematical Sciences Institute UC Berkeley</p><p class="record-item-meta">📍 Berkeley · 🗓️ Jul 2025</p></li>
