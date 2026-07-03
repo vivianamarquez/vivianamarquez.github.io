@@ -169,8 +169,28 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   .record-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
     margin: 28px 0 44px;
+  }
+
+  .record-nav-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 9px;
+    background: var(--record-accent-soft);
+    border: 1px solid rgba(155, 47, 109, 0.16);
+    border-radius: 8px;
+  }
+
+  .record-nav-label {
+    padding: 0 4px;
+    color: var(--record-accent);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
   .record-nav a {
@@ -379,6 +399,11 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
+    .record-nav {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
     .record-list.grid,
     .record-list.grid-five {
       grid-template-columns: 1fr;
@@ -489,15 +514,24 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     </section>
 
     <nav class="record-nav" aria-label="Page sections">
-      <a href="#open-source">Open Source</a>
-      <a href="#content">YouTube</a>
-      <a href="#podcast">Podcast</a>
-      <a href="#blogs">Blogs</a>
-      <a href="#meetups">Meetups</a>
-      <a href="#conferences">Conferences</a>
-      <a href="#hackathons">Hackathons</a>
-      <a href="#speaking">Speaking</a>
-      <a href="#misc">Misc</a>
+      <div class="record-nav-group">
+        <span class="record-nav-label">Content</span>
+        <a href="#open-source">Open Source</a>
+        <a href="#content">YouTube</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#blogs">Blogs</a>
+      </div>
+      <div class="record-nav-group">
+        <span class="record-nav-label">Events</span>
+        <a href="#meetups">Meetups</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#hackathons">Hackathons</a>
+        <a href="#speaking">Speaking</a>
+      </div>
+      <div class="record-nav-group">
+        <span class="record-nav-label">Misc</span>
+        <a href="#misc">Misc</a>
+      </div>
     </nav>
 
     <div class="record-divider" aria-hidden="true">
@@ -534,7 +568,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
     <section class="record-section" id="podcast">
       <h2>Podcast</h2>
-      <ul class="record-list grid">
+      <ul class="record-list">
         <li><p class="record-item-title">Can Digital Twins Evaluate Agentic AI?</p><p class="record-item-desc">Conversation with Dr. Dakuo Wang on digital twins, agentic AI, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-zm3ZPLUsCA">YouTube</a></p></li>
         <li><p class="record-item-title">Humans as AI Managers: Our Evolving Role in the Era of Experience</p><p class="record-item-desc">Conversation with Dr. Bo Wen on how human roles shift as AI systems become more capable and experience-driven.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://lnkd.in/edPPFTMJ">LinkedIn</a></p></li>
       </ul>
@@ -595,7 +629,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
     <section class="record-section" id="speaking">
       <h2>Guest Speaker Engagements Representing Prolific</h2>
-      <ul class="record-list">
+      <ul class="record-list grid">
         <li><p class="record-item-title">AJCU Provosts AI Leadership and Transformation Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">USF Alumni Panel at the Data Science Conference</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
