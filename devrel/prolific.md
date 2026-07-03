@@ -268,6 +268,11 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     border-top: 0;
   }
 
+  .record-list.grid-five li + li {
+    border-left: 1px solid var(--record-line);
+    padding-left: 14px;
+  }
+
   .record-list.grid-five .record-item-title {
     font-size: 15px;
     line-height: 1.35;
@@ -384,6 +389,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     }
 
     .record-list.grid-five li + li {
+      border-left: 0;
       border-top: 1px solid var(--record-line);
     }
 
@@ -520,7 +526,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     <section class="record-section" id="content">
       <h2>YouTube Videos</h2>
       <p class="record-note">Videos were handled end-to-end: scripting, filming, editing, and publishing.</p>
-      <ul class="record-list">
+      <ul class="record-list grid">
         <li><p class="record-item-title">How to Post-Train an LLM: SFT, DPO, Human Feedback with Prolific</p><p class="record-item-desc">Technical walkthrough connecting supervised fine-tuning, preference optimization, and human feedback workflows to Prolific.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=vh6jUmuXLhU">YouTube</a></p></li>
         <li><p class="record-item-title">How to Install Prolific's CLI Using GitHub</p><p class="record-item-desc">Setup-oriented developer tutorial for getting started with Prolific's command-line tooling.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=rUCeI8Yv__g">YouTube</a></p></li>
       </ul>
@@ -528,9 +534,9 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
     <section class="record-section" id="podcast">
       <h2>Podcast</h2>
-      <ul class="record-list">
-        <li><p class="record-item-title">Can Digital Twins Evaluate Agentic AI? ft. Dr Dakuo Wang</p><p class="record-item-desc">Interview with Dr. Dakuo Wang on digital twins, agentic AI, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-zm3ZPLUsCA">YouTube</a></p></li>
-        <li><p class="record-item-title">Humans as AI Managers: Our Evolving Role in the Era of Experience</p><p class="record-item-desc">Conversation on how human roles shift as AI systems become more capable and experience-driven.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://lnkd.in/edPPFTMJ">LinkedIn</a></p></li>
+      <ul class="record-list grid">
+        <li><p class="record-item-title">Can Digital Twins Evaluate Agentic AI?</p><p class="record-item-desc">Conversation with Dr. Dakuo Wang on digital twins, agentic AI, and evaluation.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-zm3ZPLUsCA">YouTube</a></p></li>
+        <li><p class="record-item-title">Humans as AI Managers: Our Evolving Role in the Era of Experience</p><p class="record-item-desc">Conversation with Dr. Bo Wen on how human roles shift as AI systems become more capable and experience-driven.</p><p class="record-item-meta">🔗 <a target="_blank" rel="noopener noreferrer" href="https://lnkd.in/edPPFTMJ">LinkedIn</a></p></li>
       </ul>
     </section>
 
@@ -557,7 +563,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
         <li><p class="record-item-title">What 25,000 Humans Really Think About AI | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Dec 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/0zbx2brz">Luma</a></p></li>
         <li><p class="record-item-title">Beyond the Benchmark | Prolific</p><p class="record-item-desc">Featuring researchers from Inflection AI.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Nov 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/772frd2b">Luma</a></p></li>
         <li><p class="record-item-title">Researchers Building Real-World AI Tooling | Prolific</p><p class="record-item-desc">Featuring researchers from Prolific, USF, and Stanford.</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/tyue3bfq">Luma</a></p></li>
-        <li class="record-full"><p class="record-item-title">Strategic dinner events</p><p class="record-item-desc">Relationship-building dinners for AI and research audiences.</p><p class="record-item-meta">📍 San Francisco, New York, Seattle · 🗓️ 2025-2026</p></li>
+        <li class="record-full"><p class="record-item-title">Strategic dinner events</p><p class="record-item-desc">Relationship-building dinners for AI and research audiences.</p><p class="record-item-meta">📍 San Francisco, New York, Seattle · 🗓️ 2025 - 2026</p></li>
       </ul>
     </section>
 
@@ -573,7 +579,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <ul class="record-list grid-five">
         <li><p class="record-item-title">AI Engineer World's Fair</p><p class="record-item-meta">📍 San Francisco<br>🗓️ Jul 2026</p></li>
         <li><p class="record-item-title">London Tech Week</p><p class="record-item-meta">📍 London<br>🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">ICLR</p><p class="record-item-meta">📍 Rio de Janeiro<br>🗓️ May 2026</p></li>
+        <li><p class="record-item-title">ICLR</p><p class="record-item-meta">📍 Rio de Janeiro<br>🗓️ Apr 2026</p></li>
         <li><p class="record-item-title">Human X</p><p class="record-item-meta">📍 San Francisco<br>🗓️ Apr 2026</p></li>
         <li><p class="record-item-title">AI Engine Summer Hack</p><p class="record-item-meta">📍 London<br>🗓️ Aug 2025</p></li>
       </ul>
@@ -591,10 +597,11 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <h2>Guest Speaker Engagements Representing Prolific</h2>
       <ul class="record-list">
         <li><p class="record-item-title">AJCU Provosts AI Leadership and Transformation Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">USF Alumni Panel</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
-        <li><p class="record-item-title">The LLM Lifecycle at PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
-        <li><p class="record-item-title">From Code to Connection at Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
-        <li><p class="record-item-title">AI &amp; Language at Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
+        <li><p class="record-item-title">USF Alumni Panel at the Data Science Conference</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
+        <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
+        <li><p class="record-item-title">Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
+        <li><p class="record-item-title">Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
+        <li><p class="record-item-title">MSRI-UP Alumni Panel at the Simons Laufer Mathematical Sciences Institute UC Berkeley</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jul 2025</p></li>
       </ul>
     </section>
 
