@@ -213,7 +213,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   .record-section {
     scroll-margin-top: 96px;
     margin-top: 42px;
-    padding: 22px;
+    padding: 22px 22px 16px;
     background: var(--record-panel);
     border: 1px solid var(--record-line);
     border-radius: 8px;
@@ -307,6 +307,15 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     border-top: 0;
   }
 
+  .record-list li:last-child {
+    padding-bottom: 0;
+  }
+
+  .record-list.grid li:nth-last-child(-n + 2),
+  .record-list.grid-five li {
+    padding-bottom: 0;
+  }
+
   .record-item-title {
     margin: 0 0 5px;
     min-width: 0;
@@ -358,6 +367,10 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
+  }
+
+  .record-note + .record-subhead {
+    margin-top: 4px;
   }
 
   .record-inline-list {
@@ -438,7 +451,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   @media (max-width: 520px) {
     .record-section {
-      padding: 20px;
+      padding: 20px 20px 15px;
     }
 
     .record-stats {
@@ -640,7 +653,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
         <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ May 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
         <li><p class="record-item-title">Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
         <li><p class="record-item-title">Data Science Speaker Series</p><p class="record-item-meta">📍 San Francisco · 🗓️ Sep 2025 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.meetup.com/usf-data-science-and-ai-speaker-series/events/310636474/">Meetup</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=i8SrA77OtcY">YouTube</a></p></li>
-        <li><p class="record-item-title">MSRI-UP Alumni Panel at the Simons Laufer Mathematical Sciences Institute UC Berkeley</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jul 2025</p></li>
+        <li><p class="record-item-title">MSRI-UP Alumni Panel at the Simons Laufer Mathematical Sciences Institute UC Berkeley</p><p class="record-item-meta">📍 Berkeley · 🗓️ Jul 2025</p></li>
       </ul>
     </section>
 
