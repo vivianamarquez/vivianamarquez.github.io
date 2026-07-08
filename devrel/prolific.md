@@ -467,6 +467,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
   }
 
   @media (max-width: 360px) {
+    /* Keep the carousel tidy on the smallest phone screens. */
     .record-carousel-track {
       grid-auto-columns: 100%;
     }
