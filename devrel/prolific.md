@@ -465,6 +465,12 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 360px) {
+    .record-carousel-track {
+      grid-auto-columns: 100%;
+    }
+  }
 </style>
 
 <script type="application/ld+json">
