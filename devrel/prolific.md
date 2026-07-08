@@ -657,7 +657,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     <section class="record-section" id="speaking">
       <h2>Guest Speaker Engagements Representing Prolific</h2>
       <ul class="record-list grid">
-        <li><p class="record-item-title">AJCU Provosts AI Leadership Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
+        <li><p class="record-item-title">AJCU Provosts AI Leadership Summit</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://www.usfca.edu/news/usf-leads-ai-summit">USF</a></p></li>
         <li><p class="record-item-title">USF Alumni Panel at the Data Science Conference</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jun 2026</p></li>
         <li><p class="record-item-title">PyLadies SF</p><p class="record-item-meta">📍 San Francisco · 🗓️ Apr 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/z9px4nbg">Luma</a></p></li>
         <li><p class="record-item-title">Write the Docs Bay Area</p><p class="record-item-meta">📍 San Francisco · 🗓️ Jan 2026 · 🔗 <a target="_blank" rel="noopener noreferrer" href="https://luma.com/1k8djkt9">Luma</a></p></li>
