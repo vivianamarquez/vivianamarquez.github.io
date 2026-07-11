@@ -415,6 +415,27 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     vertical-align: 1px;
   }
 
+  .record-media-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 180px;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .record-media-thumb {
+    margin: 0;
+  }
+
+  .record-media-thumb img {
+    display: block;
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border: 1px solid var(--record-line);
+    border-radius: 8px;
+    background: var(--record-tint);
+  }
+
   @media (max-width: 820px) {
     .prolific-record {
       padding-top: 92px;
@@ -453,6 +474,14 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
     .record-carousel-track {
       grid-auto-columns: minmax(230px, 72%);
+    }
+
+    .record-media-item {
+      grid-template-columns: 1fr;
+    }
+
+    .record-media-thumb {
+      max-width: 220px;
     }
   }
 
@@ -682,6 +711,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <ul class="record-list">
         <li><p class="record-item-title">Internal enablement</p><p class="record-item-desc">Led internal AI education and enablement, teaching teams core AI concepts, how to demo Prolific, and how to position it within post-training, evals, and modern AI workflows.</p></li>
         <li><p class="record-item-title">Audience growth</p><p class="record-item-desc">Supported audience growth across Prolific's community channels, including Luma 0 &rarr; ~2k followers and LinkedIn 39k &rarr; 175k.</p></li>
+        <li class="record-media-item"><div><p class="record-item-title">Swag support</p><p class="record-item-desc">Managed event swag and co-created audience-aware stickers with our graphic designer, including concepts for AI evals engineers and developers building with APIs.</p></div><figure class="record-media-thumb"><img src="/devrel/assets/prolific-devrel-swag-stickers.jpg" alt="Stickers co-created for AI engineers and developers building with APIs"></figure></li>
       </ul>
     </section>
 
