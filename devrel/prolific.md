@@ -417,7 +417,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
 
   .record-media-item {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 180px;
+    grid-template-columns: minmax(0, 1fr) 160px;
     gap: 18px;
     align-items: center;
   }
@@ -426,24 +426,80 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
     margin: 0;
   }
 
-  .record-media-thumb a {
+  .record-lightbox-trigger {
     display: block;
+    width: 100%;
+    padding: 0;
+    background: transparent;
     border: 0;
+    cursor: zoom-in;
   }
 
   .record-media-thumb img {
     display: block;
     width: 100%;
-    max-height: 150px;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
+    object-position: center;
     border: 1px solid var(--record-line);
     border-radius: 8px;
     background: var(--record-tint);
   }
 
-  .record-media-thumb a:hover img,
-  .record-media-thumb a:focus img {
+  .record-lightbox-trigger:hover img,
+  .record-lightbox-trigger:focus img {
     border-color: rgba(155, 47, 109, 0.5);
+  }
+
+  .record-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(14, 11, 24, 0.78);
+  }
+
+  .record-lightbox.is-open {
+    display: flex;
+  }
+
+  .record-lightbox-panel {
+    position: relative;
+    width: min(820px, 100%);
+    max-height: 90vh;
+  }
+
+  .record-lightbox-panel img {
+    display: block;
+    width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    background: var(--record-panel);
+  }
+
+  .record-lightbox-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    color: var(--record-ink);
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid var(--record-line);
+    border-radius: 999px;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .record-lightbox-close:hover,
+  .record-lightbox-close:focus {
+    color: var(--record-accent);
   }
 
   @media (max-width: 820px) {
@@ -721,9 +777,60 @@ share-img: "https://vivianamarquez.com/devrel/assets/viviana-marquez-prolificon-
       <ul class="record-list">
         <li><p class="record-item-title">Internal enablement</p><p class="record-item-desc">Led internal AI education and enablement, teaching teams core AI concepts, how to demo Prolific, and how to position it within post-training, evals, and modern AI workflows.</p></li>
         <li><p class="record-item-title">Audience growth</p><p class="record-item-desc">Supported audience growth across Prolific's community channels, including Luma 0 &rarr; ~2k followers and LinkedIn 39k &rarr; 175k.</p></li>
-        <li class="record-media-item"><div><p class="record-item-title">Swag support</p><p class="record-item-desc">Managed event swag and co-created audience-aware stickers with our graphic designer, including concepts for AI evals engineers and developers building with APIs.</p></div><figure class="record-media-thumb"><a target="_blank" rel="noopener noreferrer" href="/devrel/assets/prolific-devrel-swag-stickers-final.png"><img src="/devrel/assets/prolific-devrel-swag-stickers-final.png" alt="Stickers co-created for AI engineers and developers building with APIs"></a></figure></li>
+        <li class="record-media-item"><div><p class="record-item-title">Swag support</p><p class="record-item-desc">Managed event swag and co-created audience-aware stickers with our graphic designer, including concepts for AI evals engineers and developers building with APIs.</p></div><figure class="record-media-thumb"><button class="record-lightbox-trigger" type="button" data-lightbox-src="/devrel/assets/prolific-devrel-swag-stickers-final.png" aria-label="View swag sticker image"><img src="/devrel/assets/prolific-devrel-swag-stickers-final.png" alt="Stickers co-created for AI engineers and developers building with APIs"></button></figure></li>
       </ul>
     </section>
 
   </div>
 </main>
+
+<div class="record-lightbox" id="record-lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="record-lightbox-panel">
+    <button class="record-lightbox-close" type="button" aria-label="Close image preview">&times;</button>
+    <img src="" alt="">
+  </div>
+</div>
+
+<script>
+  (function() {
+    var lightbox = document.getElementById("record-lightbox");
+    if (!lightbox) return;
+
+    var image = lightbox.querySelector("img");
+    var closeButton = lightbox.querySelector(".record-lightbox-close");
+    var lastTrigger = null;
+
+    function openLightbox(trigger) {
+      lastTrigger = trigger;
+      image.src = trigger.getAttribute("data-lightbox-src");
+      image.alt = trigger.querySelector("img").alt;
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      closeButton.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      image.src = "";
+      if (lastTrigger) lastTrigger.focus();
+    }
+
+    document.querySelectorAll(".record-lightbox-trigger").forEach(function(trigger) {
+      trigger.addEventListener("click", function() {
+        openLightbox(trigger);
+      });
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", function(event) {
+      if (event.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
+  })();
+</script>
