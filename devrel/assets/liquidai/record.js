@@ -96,6 +96,7 @@
       image.src = button.getAttribute('data-image');
       image.alt = button.querySelector('img').alt;
       caption.textContent = image.alt;
+      caption.hidden = Boolean(button.closest('.record-carousel'));
       dialog.showModal();
     });
   });

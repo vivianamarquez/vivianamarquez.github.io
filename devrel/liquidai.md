@@ -54,40 +54,24 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
           <figcaption class="record-carousel-demo-caption"><span>DSpark · Launch hero demo</span><button class="record-animation-toggle" type="button" aria-controls="carousel-dspark-demo" aria-pressed="true">Pause GIF</button></figcaption>
         </figure>
         <figure class="record-carousel-slide">
-          <div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-community-group.jpg" aria-label="Enlarge Houston We Have No Cloud · Community"><img src="/devrel/assets/liquidai/houston-community-group-thumb.jpg" alt="Community group at Houston We Have No Cloud" loading="lazy"></button></div>
+          <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-speaker-artwork.jpg" aria-label="Enlarge One Week to Mission flyer"><img src="/devrel/assets/liquidai/houston-speaker-artwork-thumb.jpg" alt="One Week to Mission promotional flyer for Houston We Have No Cloud, featuring its workshop speakers" loading="lazy"></button></div>
+          <figcaption>One Week to Mission · Houston We Have No Cloud</figcaption>
+        </figure>
+        <figure class="record-carousel-slide">
+          <div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-community-group.jpg" aria-label="Enlarge Houston event group photo"><img src="/devrel/assets/liquidai/houston-community-group-thumb.jpg" alt="Viviana Márquez with the Houston We Have No Cloud community" loading="lazy"></button></div>
           <figcaption>Houston We Have No Cloud · Community</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-video"><iframe src="https://www.youtube-nocookie.com/embed/DkJ3-XLuk0c" title="Zero-Shot Prompt Routing with LFM2.5 Encoder" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-          <figcaption>Zero-Shot Prompt Routing with LFM2.5 Encoder</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-linkedin"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7511835233403650048?compact=1" title="Pitbull at CoreWeave Fully Connected, shared by Viviana Márquez on LinkedIn" loading="lazy" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe></div>
-          <figcaption>Pitbull at CoreWeave Fully Connected · LinkedIn video</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-event-artwork.jpg" aria-label="Enlarge Houston We Have No Cloud · Event artwork"><img src="/devrel/assets/liquidai/houston-event-artwork-thumb.jpg" alt="Houston We Have No Cloud promotional artwork for SF Tech Week" loading="lazy"></button></div>
-          <figcaption>Houston We Have No Cloud · Event artwork</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-outdoor-demos.jpg" aria-label="Enlarge Houston We Have No Cloud · Demos"><img src="/devrel/assets/liquidai/houston-outdoor-demos-thumb.jpg" alt="Attendees gathered around an outdoor technology demo at the event" loading="lazy"></button></div>
-          <figcaption>Houston We Have No Cloud · Demos</figcaption>
         </figure>
         <figure class="record-carousel-slide">
           <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork.jpg" aria-label="Enlarge Qualcomm × Liquid AI · Hackathon artwork"><img src="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork-thumb.jpg" alt="On-Device AI Hackathon: Cleared for Takeoff event artwork" loading="lazy"></button></div>
           <figcaption>Qualcomm × Liquid AI · Hackathon artwork</figcaption>
         </figure>
         <figure class="record-carousel-slide">
-          <div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-workshop-audience.jpg" aria-label="Enlarge Houston We Have No Cloud · Hands-on learning"><img src="/devrel/assets/liquidai/houston-workshop-audience-thumb.jpg" alt="Attendees following the workshop with laptops" loading="lazy"></button></div>
-          <figcaption>Houston We Have No Cloud · Hands-on learning</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-speaker-artwork.jpg" aria-label="Enlarge Houston We Have No Cloud · Speaker artwork"><img src="/devrel/assets/liquidai/houston-speaker-artwork-thumb.jpg" alt="Houston workshop speaker artwork featuring ZETIC, Viviana Márquez, and Brian Astro Castro" loading="lazy"></button></div>
-          <figcaption>Houston We Have No Cloud · Speaker artwork</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
           <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/open-intelligence-summit-speaker-card.jpg" aria-label="Enlarge Open Intelligence Summit · Panelist card"><img src="/devrel/assets/liquidai/open-intelligence-summit-speaker-card-thumb.jpg" alt="Open Intelligence Summit speaker card featuring Viviana Márquez from Liquid AI" loading="lazy"></button></div>
           <figcaption>Open Intelligence Summit · Panelist card</figcaption>
+        </figure>
+        <figure class="record-carousel-slide">
+          <div class="record-carousel-frame record-carousel-linkedin"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7511835233403650048?compact=1" title="Pitbull at CoreWeave Fully Connected, shared by Viviana Márquez on LinkedIn" loading="lazy" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe></div>
+          <figcaption>Pitbull at CoreWeave Fully Connected · LinkedIn video</figcaption>
         </figure>
       </div>
       <div class="record-carousel-controls">
@@ -98,47 +82,34 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
 
 
     <nav class="record-nav" aria-label="Liquid AI work sections">
-      <a href="#launches">Technical launches</a>
-      <a href="#events">Events, hackathons &amp; conferences</a>
+      <a href="#launches">Technical Launches</a>
+      <a href="#events">Community &amp; Events</a>
     </nav>
 
     <section class="record-section" id="launches" aria-labelledby="launches-title">
       <h2 id="launches-title">Technical Launches</h2>
-      <p class="record-note">Making each release understandable, tangible, and easy for developers to try.</p>
-      <p class="record-section-intro">I support launches through developer education and communication: building cookbook examples and technical demos, producing video tutorials, designing visual assets, and creating social media content. The work connects what a model or product can do with practical ways developers can use it.</p>
-      <p class="record-channel"><strong>Discord community.</strong> I own Liquid AI's Discord community and bring developer feedback back into the company.</p>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>LFM2.5-Encoders</h3><time datetime="2026-07-27">July 27, 2026</time></div>
-        <p class="record-item-desc">Cookbook example, video tutorials, thumbnail design, and launch posts.</p>
-        <p class="record-item-meta"><a href="https://github.com/Liquid4All/cookbook/tree/main/examples/lfm-encoder-classification" target="_blank" rel="noopener noreferrer">Explore the classification cookbook on GitHub ↗</a></p>
-        <p class="record-item-meta"><a href="https://www.youtube.com/watch?v=rN32xVnHH5M" target="_blank" rel="noopener noreferrer">Fine-tuning tutorial ↗</a> · <a href="https://www.youtube.com/watch?v=DkJ3-XLuk0c" target="_blank" rel="noopener noreferrer">Prompt routing tutorial ↗</a></p>
-      </article>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>LongevityBench</h3><time datetime="2026-08-17">August 17, 2026</time></div>
-        <p class="record-item-desc">Social media content supporting the launch.</p>
-      </article>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>Pipette</h3><time datetime="2026-08-24">August 24, 2026</time></div>
-        <p class="record-item-desc">Video tutorial and social content showing developers how to benchmark models on their target device.</p>
-        <p class="record-item-meta"><a href="https://x.com/vivmarquez/status/2092316248025796779" target="_blank" rel="noopener noreferrer">Tutorial on X ↗</a></p>
-      </article>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>LFM VL DSpark</h3><time datetime="2026-09-24">September 24, 2026</time></div>
-        <p class="record-item-desc">Code for the launch's hero demo and supporting social media content.</p>
-        <p class="record-item-meta"><a href="https://x.com/liquidai/status/2103131179100819783" target="_blank" rel="noopener noreferrer">View the launch on X ↗</a></p>
-      </article>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>d1</h3><time datetime="2026-09-29">September 29, 2026</time></div>
-        <p class="record-item-desc">Social media content supporting the release.</p>
-      </article>
-      <article class="record-launch">
-        <div class="record-entry-heading"><h3>d1-3B &amp; d1-omni-600M</h3><time datetime="2026-10-05">October 5, 2026</time></div>
-        <p class="record-item-desc">Social media content supporting the model launches.</p>
-      </article>
+      <p class="record-section-intro">I turn model and product releases into practical resources developers can use. Working across AI engineering and marketing, I build cookbook examples and technical demos, produce video tutorials, and create launch visuals and social content.</p>
+      <div class="record-launch-channels">
+        <div class="record-platforms" aria-hidden="true">
+          <span><img src="/devrel/assets/liquidai/discord.svg" alt="" width="22" height="22"></span>
+          <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z"/></svg></span>
+          <span><img src="/devrel/assets/liquidai/linkedin.svg" alt="" width="22" height="22"></span>
+        </div>
+        <p>I manage Liquid AI's Discord community and its X and LinkedIn accounts.</p>
+      </div>
+      <h3 class="record-launch-subtitle" id="launch-list-title">Launches</h3>
+      <ul class="record-launch-list" aria-labelledby="launch-list-title">
+        <li><div class="record-launch-heading"><strong>LFM2.5-Encoders</strong><time datetime="2026-07-27">— July 27, 2026</time></div><p>Compact text encoders for classification, language understanding, and retrieval, designed to run efficiently on local hardware.</p></li>
+        <li><div class="record-launch-heading"><strong>LongevityBench</strong><time datetime="2026-08-17">— August 17, 2026</time></div><p>An open benchmark for evaluating AI models on aging biology and longevity research.</p></li>
+        <li><div class="record-launch-heading"><strong>Pipette</strong><time datetime="2026-08-24">— August 24, 2026</time></div><p>An open-source benchmarking platform for comparing foundation model speed, latency, and memory use on real edge devices.</p></li>
+        <li><div class="record-launch-heading"><strong>LFM VL DSpark</strong><time datetime="2026-09-24">— September 24, 2026</time></div><p>A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</p></li>
+        <li><div class="record-launch-heading"><strong>d1</strong><time datetime="2026-09-29">— September 29, 2026</time></div><p>A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</p></li>
+        <li><div class="record-launch-heading"><strong>d1-3B &amp; d1-omni-600M</strong><time datetime="2026-10-05">— October 5, 2026</time></div><p>Open-weight decision models for edge deployment: d1-3B handles text and images, while d1-omni-600M adds audio support.</p></li>
+      </ul>
     </section>
 
     <section class="record-section" id="events" aria-labelledby="events-title">
-      <h2 id="events-title">Events, Hackathons &amp; Conferences</h2>
+      <h2 id="events-title">Community &amp; Events</h2>
       <p class="record-note">Bringing developers together, sharing technical knowledge, and connecting event engagement with GTM follow-up.</p>
       <p class="record-channel"><strong>Luma calendar.</strong> Created the Luma calendar for Liquid AI's developer events.</p>
 
