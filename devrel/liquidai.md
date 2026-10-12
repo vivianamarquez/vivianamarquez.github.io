@@ -35,7 +35,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
       <div>
         <p class="record-kicker">July 2026 - Present</p>
         <h1>MTS, Developer Relations<br>at Liquid AI</h1>
-        <p class="record-summary">Liquid AI builds efficient, open-weight foundation models designed to run anywhere, from laptops and smartphones to wearables, robotics, and other edge devices, enabling fast, lower-cost, private on-device intelligence that can work offline. My role sits at the intersection of AI engineering, marketing, and GTM.</p>
+        <p class="record-summary">Enabling developers to build fast, affordable, private AI that runs on-device, even offline, with Liquid AI's open-weight models. I combine technical depth, marketing expertise, and GTM vision to create practical resources, educate and support technical audiences, and connect developer engagement to business opportunities.</p>
       </div>
     </header>
 
@@ -82,9 +82,79 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
 
 
     <nav class="record-nav" aria-label="Liquid AI work sections">
-      <a href="#launches">Technical Launches</a>
       <a href="#events">Community &amp; Events</a>
+      <a href="#launches">Technical Launches</a>
     </nav>
+
+    <section class="record-section" id="events" aria-labelledby="events-title">
+      <h2 id="events-title">Community &amp; Events</h2>
+      <p class="record-section-intro">I lead community events and hackathons end to end, and coordinate C-suite events and conference participation. I develop technical demos and hands-on content for booths and hackathons, teach participants and the public how to use Liquid Foundation Models (LFMs), and provide technical support to help them build and troubleshoot.</p>
+      <p class="record-section-intro">My work also covers logistics, sponsorships, event promotion, and social media content capture. I send targeted outbound invitations to attract attendees who match our ideal customer profile (ICP), then hand off leads and opportunities to GTM for follow-up. I also represent Liquid AI as a speaker and panelist at developer and industry events.</p>
+
+      <div class="record-event-group">
+        <h3 class="record-subhead">Events I Organize</h3>
+        <ul class="record-events">
+          <li><time datetime="2026-11-13">Nov 13, 2026</time><div>
+            <div class="record-event-feature">
+              <div>
+                <h4>On-Device AI Hackathon: Cleared for Takeoff ✈️ <span class="record-tag">Upcoming</span></h4>
+                <p class="record-item-desc">Organizing the hackathon with <strong>Qualcomm</strong>, where I'll co-lead a hands-on workshop on running Liquid Foundation Models (LFMs) on IQ9 devices. I'm also managing logistics, event promotion, swag and social media design, targeted outbound invitations to attract attendees who match our ideal customer profile (ICP), and lead handoff to GTM.</p>
+                <p class="record-item-meta"><a href="https://luma.com/0nsdnkoa" target="_blank" rel="noopener noreferrer">Event on Luma ↗</a></p>
+              </div>
+              <button class="record-photo record-event-flyer" type="button" data-image="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork.jpg" aria-label="Enlarge Cleared for Takeoff event flyer"><img src="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork-thumb.jpg" alt="Cleared for Takeoff on-device AI hackathon flyer" width="120" height="120" loading="lazy"></button>
+            </div>
+          </div></li>
+          <li id="houston"><time datetime="2026-10-06">Oct 6, 2026</time><div>
+            <div class="record-event-feature">
+              <div>
+                <h4>Houston We Have No Cloud · #SFTechWeek</h4>
+                <p class="record-item-desc">Organized the event with <strong>ZETIC</strong>. Co-led a hands-on workshop on running LFMs on-device and provided technical support to help participants build and troubleshoot. Managed the SF Tech Week submission, logistics, event marketing, swag and social media design, attendee follow-up, and lead handoff to GTM.</p>
+                <p class="record-item-meta record-event-links"><strong class="record-result">370+ registrations</strong><a href="https://partiful.com/events/kzDyZMh8g9rdbuuFviyh/" target="_blank" rel="noopener noreferrer">Event on Partiful ↗</a></p>
+              </div>
+              <button class="record-photo record-event-flyer" type="button" data-image="/devrel/assets/liquidai/houston-event-artwork.jpg" aria-label="Enlarge Houston We Have No Cloud event flyer"><img src="/devrel/assets/liquidai/houston-event-artwork-thumb.jpg" alt="Houston We Have No Cloud event flyer for SF Tech Week" width="120" height="120" loading="lazy"></button>
+            </div>
+            <details class="record-event-photos">
+              <summary>View workshop photos</summary>
+              <div class="record-carousel record-event-gallery" aria-label="Houston workshop photos" aria-roledescription="carousel">
+                <div class="record-carousel-track" id="houston-gallery-track" tabindex="0" role="group" aria-label="Seven photos from Houston We Have No Cloud">
+                    <figure class="record-carousel-slide" style="--photo-ratio: 1.333333"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-05.jpg" aria-label="Enlarge Houston event photo 1"><img src="/devrel/assets/liquidai/houston-photo-05-thumb.jpg" alt="Technical presentation at Houston We Have No Cloud" loading="lazy"></button></div><figcaption>Technical presentation at Houston We Have No Cloud</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 1.333333"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-01.jpg" aria-label="Enlarge Houston event photo 2"><img src="/devrel/assets/liquidai/houston-photo-01-thumb.jpg" alt="Participants at the Houston We Have No Cloud workshop" loading="lazy"></button></div><figcaption>Participants at the Houston We Have No Cloud workshop</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 1.333333"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-02.jpg" aria-label="Enlarge Houston event photo 3"><img src="/devrel/assets/liquidai/houston-photo-02-thumb.jpg" alt="The Houston We Have No Cloud community group" loading="lazy"></button></div><figcaption>The Houston We Have No Cloud community group</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 0.562222"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-03.jpg" aria-label="Enlarge Houston event photo 4"><img src="/devrel/assets/liquidai/houston-photo-03-thumb.jpg" alt="Liquid AI event banner at Houston We Have No Cloud" loading="lazy"></button></div><figcaption>Liquid AI event banner at Houston We Have No Cloud</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 0.562222"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-04.jpg" aria-label="Enlarge Houston event photo 5"><img src="/devrel/assets/liquidai/houston-photo-04-thumb.jpg" alt="Attendees networking at Houston We Have No Cloud" loading="lazy"></button></div><figcaption>Attendees networking at Houston We Have No Cloud</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 0.750000"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-06.jpg" aria-label="Enlarge Houston event photo 6"><img src="/devrel/assets/liquidai/houston-photo-06-thumb.jpg" alt="The venue at Houston We Have No Cloud" loading="lazy"></button></div><figcaption>The venue at Houston We Have No Cloud</figcaption></figure>
+                    <figure class="record-carousel-slide" style="--photo-ratio: 1.333333"><div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-photo-07.jpg" aria-label="Enlarge Houston event photo 7"><img src="/devrel/assets/liquidai/houston-photo-07-thumb.jpg" alt="Outdoor demos at Houston We Have No Cloud" loading="lazy"></button></div><figcaption>Outdoor demos at Houston We Have No Cloud</figcaption></figure>
+                </div>
+                <div class="record-carousel-controls"><div><button class="record-carousel-prev" type="button" aria-label="Previous Houston photos" aria-controls="houston-gallery-track">←</button><button class="record-carousel-next" type="button" aria-label="Next Houston photos" aria-controls="houston-gallery-track">→</button></div></div>
+              </div>
+            </details>
+          </div></li>
+          <li id="executive-visit"><time datetime="2026-08-02">Aug 2, 2026</time><div><h4>Alura executive visit</h4><p class="record-item-desc">Hosted <strong>55 Brazilian senior executives</strong> visiting Silicon Valley. Coordinated the venue and team participation, delivered a presentation in Portuguese, sent follow-ups, and worked with GTM to coordinate meetings.</p></div></li>
+        </ul>
+      </div>
+
+      <div class="record-event-group">
+        <h3 class="record-subhead">Sponsorships &amp; Conference Presence</h3>
+        <ul class="record-events record-sponsorships">
+          <li><time datetime="2026-12-06">Dec 6, 2026</time><div><h4>NeurIPS 2026 <span class="record-tag">Upcoming</span></h4></div></li>
+          <li><time datetime="2026-11-12">Nov 12, 2026</time><div><h4>SGLang Summit 2026 <span class="record-tag">Upcoming</span></h4></div></li>
+          <li><time datetime="2026-09-29">Sep 29, 2026</time><div><h4>CoreWeave Fully Connected 2026</h4></div></li>
+          <li><time datetime="2026-09-25">Sep 25, 2026</time><div><h4>Tokens&amp; · Long Horizon Agents Hackathon</h4></div></li>
+          <li><time datetime="2026-07-23">Jul 23, 2026</time><div><h4>AMD Advancing AI 2026</h4></div></li>
+        </ul>
+      </div>
+
+      <div class="record-event-group">
+        <h3 class="record-subhead">Speaking Engagements</h3>
+        <ul class="record-events">
+          <li><time datetime="2026-10-13">Oct 13, 2026</time><div>
+            <h4>DigitalOcean · Open Intelligence Summit</h4>
+            <p class="record-item-desc"><strong>Panel:</strong> More Models, One Stack: How to Choose and Serve Open Models</p>
+            <p class="record-item-desc">Panelist alongside Peter Walker (OpenRouter), Alex Nails (RadixArk), and Victor Su Ortiz (MiniMax).</p>
+          </div></li>
+        </ul>
+      </div>
+    </section>
 
     <section class="record-section" id="launches" aria-labelledby="launches-title">
       <h2 id="launches-title">Technical Launches</h2>
@@ -97,69 +167,18 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
         </div>
         <p>I manage Liquid AI's Discord community and its X and LinkedIn accounts.</p>
       </div>
-      <h3 class="record-launch-subtitle" id="launch-table-title">Launches</h3>
-      <table class="record-launch-table" aria-labelledby="launch-table-title">
+      <table class="record-launch-table" aria-labelledby="launches-title">
         <colgroup><col class="record-launch-name-col"><col><col class="record-launch-date-col"></colgroup>
         <thead><tr><th scope="col">Launch</th><th scope="col">Description</th><th scope="col">Date</th></tr></thead>
         <tbody>
-          <tr><th scope="row">LFM2.5-Encoders</th><td class="record-launch-description">Compact text encoders for classification, language understanding, and retrieval, designed to run efficiently on local hardware.</td><td class="record-launch-date"><time datetime="2026-07-27">July 27, 2026</time></td></tr>
-          <tr><th scope="row">LongevityBench</th><td class="record-launch-description">An open benchmark for evaluating AI models on aging biology and longevity research.</td><td class="record-launch-date"><time datetime="2026-08-17">August 17, 2026</time></td></tr>
-          <tr><th scope="row">Pipette</th><td class="record-launch-description">An open-source benchmarking platform for comparing foundation model speed, latency, and memory use on real edge devices.</td><td class="record-launch-date"><time datetime="2026-08-24">August 24, 2026</time></td></tr>
-          <tr><th scope="row">LFM2.5-VL-DSpark</th><td class="record-launch-description">A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</td><td class="record-launch-date"><time datetime="2026-09-24">September 24, 2026</time></td></tr>
-          <tr><th scope="row">d1</th><td class="record-launch-description">A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</td><td class="record-launch-date"><time datetime="2026-09-29">September 29, 2026</time></td></tr>
           <tr><th scope="row">d1-3B &amp; d1-omni-600M</th><td class="record-launch-description">Open-weight decision models for edge deployment: d1-3B handles text and images, while d1-omni-600M adds audio support.</td><td class="record-launch-date"><time datetime="2026-10-05">October 5, 2026</time></td></tr>
+          <tr><th scope="row">d1</th><td class="record-launch-description">A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</td><td class="record-launch-date"><time datetime="2026-09-29">September 29, 2026</time></td></tr>
+          <tr><th scope="row">LFM2.5-VL-DSpark</th><td class="record-launch-description">A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</td><td class="record-launch-date"><time datetime="2026-09-24">September 24, 2026</time></td></tr>
+          <tr><th scope="row">Pipette</th><td class="record-launch-description">An open-source benchmarking platform for comparing foundation model speed, latency, and memory use on real edge devices.</td><td class="record-launch-date"><time datetime="2026-08-24">August 24, 2026</time></td></tr>
+          <tr><th scope="row">LongevityBench</th><td class="record-launch-description">An open benchmark for evaluating AI models on aging biology and longevity research.</td><td class="record-launch-date"><time datetime="2026-08-17">August 17, 2026</time></td></tr>
+          <tr><th scope="row">LFM2.5-Encoders</th><td class="record-launch-description">Compact text encoders for classification, language understanding, and retrieval, designed to run efficiently on local hardware.</td><td class="record-launch-date"><time datetime="2026-07-27">July 27, 2026</time></td></tr>
         </tbody>
       </table>
-    </section>
-
-    <section class="record-section" id="events" aria-labelledby="events-title">
-      <h2 id="events-title">Community &amp; Events</h2>
-      <p class="record-section-intro">I lead community events and hackathons from planning through follow-up: managing logistics, developing technical content, promoting the event, capturing social media content, and handing off leads and opportunities to GTM.</p>
-      <p class="record-section-intro">I also organize C-suite events and coordinate conference participation, including sponsorships, booth content, logistics, and GTM handoff. I represent Liquid AI as a speaker and panelist at developer and industry events.</p>
-      <p class="record-channel"><strong>Luma calendar.</strong> Created the Luma calendar for Liquid AI's developer events.</p>
-
-      <div class="record-event-group">
-        <h3 class="record-subhead">Meetups &amp; workshops</h3>
-        <ul class="record-events">
-          <li id="houston"><time datetime="2026-10-06">Oct 6, 2026</time><div>
-            <h4>Houston We Have No Cloud</h4>
-            <p class="record-item-desc">Organized the event with ZETIC, helping grow the partnership through a hands-on workshop. Led the SF Tech Week submission, logistics, event marketing, swag and social media design, attendee follow-up, lead collection, and booking calls with GTM.</p>
-            <p class="record-result">370 registrations · 70 attendees</p>
-            <p class="record-item-meta"><a href="https://partiful.com/events/kzDyZMh8g9rdbuuFviyh/" target="_blank" rel="noopener noreferrer">Event on Partiful ↗</a></p>
-            <details class="record-event-photos"><summary>View workshop photo</summary><div class="record-event-photo"><figure><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/viviana-marquez-houston-workshop.jpg" aria-label="Enlarge the Houston workshop photo"><img src="/devrel/assets/liquidai/viviana-marquez-houston-workshop-thumb.jpg" width="900" height="675" alt="Viviana Márquez presenting at Houston We Have No Cloud" loading="lazy"></button><figcaption>The workshop</figcaption></figure></div></details>
-          </div></li>
-          <li><time datetime="2026-11-18">Nov 18, 2026</time><div><h4>On-device agents with AI Socratic <span class="record-tag">Upcoming</span></h4><p class="record-item-desc">Co-organizing the event with AI Socratic.</p><p class="record-item-meta"><a href="https://luma.com/on-device-agents" target="_blank" rel="noopener noreferrer">Event on Luma ↗</a></p></div></li>
-        </ul>
-      </div>
-
-      <div class="record-event-group">
-        <h3 class="record-subhead">Hackathons</h3>
-        <ul class="record-events">
-          <li><time datetime="2026-09-25">Sep 25, 2026</time><div><h4>Tokens&amp; · Long Horizon Agents Hackathon</h4><p class="record-item-desc">Coordinated Liquid AI's sponsorship, led a technical session, and followed up with attendees to support the marketing pipeline.</p><p class="record-item-meta"><a href="https://luma.com/horizonagentshack" target="_blank" rel="noopener noreferrer">Event on Luma ↗</a></p></div></li>
-          <li><time datetime="2026-11-13">Nov 13, 2026</time><div>
-            <h4>On-Device AI Hackathon: Cleared for Takeoff <span class="record-tag">Upcoming</span></h4>
-            <p class="record-item-desc">Organizing the hackathon with Qualcomm, including technical sessions, logistics, event promotion, swag and social media design, and planning attendee and GTM follow-up.</p>
-            <p class="record-item-meta"><a href="https://luma.com/0nsdnkoa" target="_blank" rel="noopener noreferrer">Event on Luma ↗</a></p>
-          </div></li>
-        </ul>
-      </div>
-
-      <div class="record-event-group">
-        <h3 class="record-subhead">Conferences &amp; speaking</h3>
-        <ul class="record-events">
-          <li><time datetime="2026-07-23">Jul 23, 2026</time><div><h4>AMD Advancing AI</h4><p class="record-item-desc">Supported Liquid AI's booth and lead collection.</p></div></li>
-          <li><time datetime="2026-09-29">Sep 29, 2026</time><div><h4>CoreWeave Fully Connected</h4><p class="record-item-desc">Supported the booth, collected leads, and followed up with attendees for the marketing pipeline.</p><p class="record-item-meta"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7511835348671414272/" target="_blank" rel="noopener noreferrer">LinkedIn recap ↗</a> · <a href="https://www.linkedin.com/feed/update/urn:li:activity:7511174293666582528/" target="_blank" rel="noopener noreferrer">More from the event ↗</a></p></div></li>
-          <li><time datetime="2026-10-13">Oct 13, 2026</time><div><h4>DigitalOcean · Open Intelligence Summit <span class="record-tag">Upcoming</span></h4><p class="record-item-desc">Invited to participate as a panelist representing Liquid AI in San Francisco.</p><p class="record-item-meta"><a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7514091510582112256/" target="_blank" rel="noopener noreferrer">Announcement on LinkedIn ↗</a></p></div></li>
-          <li><time datetime="2026-12-06">Dec 6, 2026</time><div><h4>NeurIPS <span class="record-tag">Upcoming</span></h4><p class="record-item-desc">Scope and activities to be confirmed.</p></div></li>
-        </ul>
-      </div>
-
-      <div class="record-event-group">
-        <h3 class="record-subhead">Executive visits</h3>
-        <ul class="record-events">
-          <li id="executive-visit"><time datetime="2026-08-02">Aug 2, 2026</time><div><h4>StartSe / Alura executive visit</h4><p class="record-item-desc">Hosted <strong>55 Brazilian senior executives</strong> visiting Silicon Valley. Coordinated the venue and team participation, delivered a presentation in Portuguese, sent follow-ups, and worked with GTM to coordinate meetings.</p></div></li>
-        </ul>
-      </div>
     </section>
 
 

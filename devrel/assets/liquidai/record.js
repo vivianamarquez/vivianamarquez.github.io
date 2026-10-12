@@ -11,10 +11,11 @@
     });
   });
 
-  var track = document.querySelector('.record-carousel-track');
-  if (track) {
-    var previous = document.querySelector('.record-carousel-prev');
-    var next = document.querySelector('.record-carousel-next');
+  document.querySelectorAll('.record-carousel').forEach(function (carousel) {
+    var track = carousel.querySelector('.record-carousel-track');
+    if (!track) return;
+    var previous = carousel.querySelector('.record-carousel-prev');
+    var next = carousel.querySelector('.record-carousel-next');
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     function updateControls() {
       previous.disabled = track.scrollLeft <= 1;
@@ -38,9 +39,9 @@
       event.preventDefault();
       advance(event.key === 'ArrowRight' ? 1 : -1);
     });
-    window.addEventListener('resize', updateControls);
+    new ResizeObserver(updateControls).observe(track);
     updateControls();
-  }
+  });
 
   var linkedInStage = document.querySelector('.record-carousel-linkedin');
   if (linkedInStage) {
