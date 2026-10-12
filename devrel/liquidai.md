@@ -50,7 +50,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
           <figcaption>Pipette · On-device benchmarking tutorial</figcaption>
         </figure>
         <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-animation"><img id="carousel-dspark-demo" src="/devrel/assets/liquidai/dspark-vision-demo.gif" data-poster="/devrel/assets/liquidai/dspark-vision-demo-poster.jpg" data-animation="/devrel/assets/liquidai/dspark-vision-demo.gif" alt="DSpark vision demo comparing LFM2.5-VL-3B and LFM2.5-VL-3B-DSpark" loading="lazy"></div>
+          <div class="record-carousel-frame record-carousel-animation"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/dspark-vision-demo.gif" aria-label="Enlarge DSpark animated demo" aria-haspopup="dialog"><img id="carousel-dspark-demo" src="/devrel/assets/liquidai/dspark-vision-demo.gif" data-poster="/devrel/assets/liquidai/dspark-vision-demo-poster.jpg" data-animation="/devrel/assets/liquidai/dspark-vision-demo.gif" alt="DSpark vision demo comparing LFM2.5-VL-3B and LFM2.5-VL-3B-DSpark" loading="lazy"></button></div>
           <figcaption class="record-carousel-demo-caption"><span>DSpark · Launch hero demo</span><button class="record-animation-toggle" type="button" aria-controls="carousel-dspark-demo" aria-pressed="true">Pause GIF</button></figcaption>
         </figure>
         <figure class="record-carousel-slide">
@@ -97,20 +97,25 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
         </div>
         <p>I manage Liquid AI's Discord community and its X and LinkedIn accounts.</p>
       </div>
-      <h3 class="record-launch-subtitle" id="launch-list-title">Launches</h3>
-      <ul class="record-launch-list" aria-labelledby="launch-list-title">
-        <li><div class="record-launch-heading"><strong>LFM2.5-Encoders</strong><time datetime="2026-07-27">— July 27, 2026</time></div><p>Compact text encoders for classification, language understanding, and retrieval, designed to run efficiently on local hardware.</p></li>
-        <li><div class="record-launch-heading"><strong>LongevityBench</strong><time datetime="2026-08-17">— August 17, 2026</time></div><p>An open benchmark for evaluating AI models on aging biology and longevity research.</p></li>
-        <li><div class="record-launch-heading"><strong>Pipette</strong><time datetime="2026-08-24">— August 24, 2026</time></div><p>An open-source benchmarking platform for comparing foundation model speed, latency, and memory use on real edge devices.</p></li>
-        <li><div class="record-launch-heading"><strong>LFM VL DSpark</strong><time datetime="2026-09-24">— September 24, 2026</time></div><p>A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</p></li>
-        <li><div class="record-launch-heading"><strong>d1</strong><time datetime="2026-09-29">— September 29, 2026</time></div><p>A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</p></li>
-        <li><div class="record-launch-heading"><strong>d1-3B &amp; d1-omni-600M</strong><time datetime="2026-10-05">— October 5, 2026</time></div><p>Open-weight decision models for edge deployment: d1-3B handles text and images, while d1-omni-600M adds audio support.</p></li>
-      </ul>
+      <h3 class="record-launch-subtitle" id="launch-table-title">Launches</h3>
+      <table class="record-launch-table" aria-labelledby="launch-table-title">
+        <colgroup><col class="record-launch-name-col"><col><col class="record-launch-date-col"></colgroup>
+        <thead><tr><th scope="col">Launch</th><th scope="col">Description</th><th scope="col">Date</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">LFM2.5-Encoders</th><td class="record-launch-description">Compact text encoders for classification, language understanding, and retrieval, designed to run efficiently on local hardware.</td><td class="record-launch-date"><time datetime="2026-07-27">July 27, 2026</time></td></tr>
+          <tr><th scope="row">LongevityBench</th><td class="record-launch-description">An open benchmark for evaluating AI models on aging biology and longevity research.</td><td class="record-launch-date"><time datetime="2026-08-17">August 17, 2026</time></td></tr>
+          <tr><th scope="row">Pipette</th><td class="record-launch-description">An open-source benchmarking platform for comparing foundation model speed, latency, and memory use on real edge devices.</td><td class="record-launch-date"><time datetime="2026-08-24">August 24, 2026</time></td></tr>
+          <tr><th scope="row">LFM2.5-VL-DSpark</th><td class="record-launch-description">A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</td><td class="record-launch-date"><time datetime="2026-09-24">September 24, 2026</time></td></tr>
+          <tr><th scope="row">d1</th><td class="record-launch-description">A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</td><td class="record-launch-date"><time datetime="2026-09-29">September 29, 2026</time></td></tr>
+          <tr><th scope="row">d1-3B &amp; d1-omni-600M</th><td class="record-launch-description">Open-weight decision models for edge deployment: d1-3B handles text and images, while d1-omni-600M adds audio support.</td><td class="record-launch-date"><time datetime="2026-10-05">October 5, 2026</time></td></tr>
+        </tbody>
+      </table>
     </section>
 
     <section class="record-section" id="events" aria-labelledby="events-title">
       <h2 id="events-title">Community &amp; Events</h2>
-      <p class="record-note">Bringing developers together, sharing technical knowledge, and connecting event engagement with GTM follow-up.</p>
+      <p class="record-section-intro">I lead community events and hackathons from planning through follow-up: managing logistics, developing technical content, promoting the event, capturing social media content, and handing off leads and opportunities to GTM.</p>
+      <p class="record-section-intro">I also organize C-suite events and coordinate conference participation, including sponsorships, booth content, logistics, and GTM handoff. I represent Liquid AI as a speaker and panelist at developer and industry events.</p>
       <p class="record-channel"><strong>Luma calendar.</strong> Created the Luma calendar for Liquid AI's developer events.</p>
 
       <div class="record-event-group">
