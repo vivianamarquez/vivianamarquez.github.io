@@ -286,6 +286,10 @@ footer a {
   color: {{site.footer-link-col}};
 }
 
+footer .footer-resume {
+  margin: 10px 0 8px;
+}
+
 footer .list-inline {
   margin: 0;
   padding: 0;

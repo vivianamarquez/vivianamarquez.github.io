@@ -3,9 +3,13 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <center><b><big>Let's connect!</big></b></center>
+        {% if site.social-network-links.resume %}
+        <p class="text-center footer-resume"><a href="{{ site.data.SocialNetworks.resume.baseURL }}{{ site.social-network-links.resume }}" target="_blank" rel="noopener noreferrer">View my resume</a></p>
+        {% endif %}
         <ul class="list-inline text-center footer-links">
           {%- for link in site.social-network-links -%}
             {%- assign curkey = link[0] -%}
+            {%- if curkey == 'resume' -%}{%- continue -%}{%- endif -%}
             {%- assign element = site.data.SocialNetworks[curkey] -%}
             <li>
             {%- if curkey == 'rss' -%}
