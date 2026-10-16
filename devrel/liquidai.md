@@ -9,7 +9,7 @@ meta-keywords: "Viviana Márquez, Liquid AI, Developer Relations, DevRel, on-dev
 share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-summit-speaker-card.jpg"
 ---
 
-<link rel="stylesheet" href="{{ '/devrel/assets/liquidai/record.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/devrel/assets/liquidai/record.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <script type="application/ld+json">
 {
@@ -19,7 +19,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
   "description": "Viviana Márquez's work at Liquid AI at the intersection of AI engineering, marketing, and GTM for on-device intelligence.",
   "url": "https://vivianamarquez.com/devrel/liquidai/",
   "image": "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-summit-speaker-card.jpg",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-15",
   "mainEntity": {
     "@type": "Person",
     "name": "Viviana Márquez",
@@ -53,6 +53,10 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
           <div class="record-carousel-frame record-carousel-animation"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/dspark-vision-demo.gif" aria-label="Enlarge DSpark animated demo" aria-haspopup="dialog"><img id="carousel-dspark-demo" src="/devrel/assets/liquidai/dspark-vision-demo.gif" data-poster="/devrel/assets/liquidai/dspark-vision-demo-poster.jpg" data-animation="/devrel/assets/liquidai/dspark-vision-demo.gif" alt="DSpark vision demo comparing LFM2.5-VL-3B and LFM2.5-VL-3B-DSpark" loading="lazy"></button></div>
           <figcaption class="record-carousel-demo-caption"><span>DSpark · Launch hero demo</span><button class="record-animation-toggle" type="button" aria-controls="carousel-dspark-demo" aria-pressed="true">Pause GIF</button></figcaption>
         </figure>
+        <figure class="record-carousel-slide record-carousel-landscape">
+          <div class="record-carousel-frame"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/open-intelligence-summit-panel.jpg" aria-label="Enlarge Open Intelligence Summit panel photo"><img src="/devrel/assets/liquidai/open-intelligence-summit-panel-thumb.jpg" alt="Viviana Márquez participating in the Open Intelligence Summit panel on choosing and serving open models" loading="lazy"></button></div>
+          <figcaption>Open Intelligence Summit · Panel discussion</figcaption>
+        </figure>
         <figure class="record-carousel-slide">
           <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/houston-speaker-artwork.jpg" aria-label="Enlarge One Week to Mission flyer"><img src="/devrel/assets/liquidai/houston-speaker-artwork-thumb.jpg" alt="One Week to Mission promotional flyer for Houston We Have No Cloud, featuring its workshop speakers" loading="lazy"></button></div>
           <figcaption>One Week to Mission · Houston We Have No Cloud</figcaption>
@@ -64,10 +68,6 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
         <figure class="record-carousel-slide">
           <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork.jpg" aria-label="Enlarge Qualcomm × Liquid AI · Hackathon artwork"><img src="/devrel/assets/liquidai/qualcomm-on-device-hackathon-artwork-thumb.jpg" alt="On-Device AI Hackathon: Cleared for Takeoff event artwork" loading="lazy"></button></div>
           <figcaption>Qualcomm × Liquid AI · Hackathon artwork</figcaption>
-        </figure>
-        <figure class="record-carousel-slide">
-          <div class="record-carousel-frame record-carousel-artwork"><button class="record-photo" type="button" data-image="/devrel/assets/liquidai/open-intelligence-summit-speaker-card.jpg" aria-label="Enlarge Open Intelligence Summit · Panelist card"><img src="/devrel/assets/liquidai/open-intelligence-summit-speaker-card-thumb.jpg" alt="Open Intelligence Summit speaker card featuring Viviana Márquez from Liquid AI" loading="lazy"></button></div>
-          <figcaption>Open Intelligence Summit · Panelist card</figcaption>
         </figure>
         <figure class="record-carousel-slide">
           <div class="record-carousel-frame record-carousel-linkedin"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7511835233403650048?compact=1" title="Pitbull at CoreWeave Fully Connected, shared by Viviana Márquez on LinkedIn" loading="lazy" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe></div>
@@ -129,7 +129,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
               </div>
             </details>
           </div></li>
-          <li id="executive-visit"><time datetime="2026-08-02">Aug 2, 2026</time><div><h4>Alura executive visit</h4><p class="record-item-desc">Hosted <strong>55 Brazilian senior executives</strong> visiting Silicon Valley. Coordinated the venue and team participation, delivered a presentation in Portuguese, sent follow-ups, and worked with GTM to coordinate meetings.</p></div></li>
+          <li id="executive-visit"><time datetime="2026-08-02">Aug 2, 2026</time><div><h4>Alura executive visit</h4><p class="record-item-desc">Hosted <strong>55 Brazilian senior executives</strong> visiting Silicon Valley. Delivered a technical presentation in Portuguese on Liquid Foundation Models and the benefits of running AI on-device. Coordinated the venue and team participation, followed up with attendees, and worked with GTM to arrange meetings.</p></div></li>
         </ul>
       </div>
 
@@ -147,10 +147,15 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
       <div class="record-event-group">
         <h3 class="record-subhead">Speaking Engagements</h3>
         <ul class="record-events">
-          <li><time datetime="2026-10-13">Oct 13, 2026</time><div>
-            <h4>DigitalOcean · Open Intelligence Summit</h4>
-            <p class="record-item-desc"><strong>Panel:</strong> More Models, One Stack: How to Choose and Serve Open Models</p>
-            <p class="record-item-desc">Panelist alongside Peter Walker (OpenRouter), Alex Nails (RadixArk), and Victor Su Ortiz (MiniMax).</p>
+          <li id="open-intelligence-summit"><time datetime="2026-10-13">Oct 13, 2026</time><div>
+            <div class="record-event-feature">
+              <div>
+                <h4>DigitalOcean · Open Intelligence Summit</h4>
+                <p class="record-item-desc"><strong>Panel:</strong> More Models, One Stack: How to Choose and Serve Open Models</p>
+                <p class="record-item-desc">Panelist alongside Peter Walker (OpenRouter), Alex Nails (RadixArk), and Victor Su Ortiz (MiniMax).</p>
+              </div>
+              <button class="record-photo record-event-flyer" type="button" data-image="/devrel/assets/liquidai/open-intelligence-summit-speaker-card.jpg" aria-label="Enlarge Open Intelligence Summit speaker announcement"><img src="/devrel/assets/liquidai/open-intelligence-summit-speaker-card-thumb.jpg" alt="Open Intelligence Summit speaker announcement featuring Viviana Márquez from Liquid AI" width="120" height="120" loading="lazy"></button>
+            </div>
           </div></li>
         </ul>
       </div>
@@ -171,6 +176,8 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
         <colgroup><col class="record-launch-name-col"><col><col class="record-launch-date-col"></colgroup>
         <thead><tr><th scope="col">Launch</th><th scope="col">Description</th><th scope="col">Date</th></tr></thead>
         <tbody>
+          <tr><th scope="row">d1-ultra</th><td class="record-launch-description">An upgrade to d1 with stronger performance on knowledge-intensive tasks and more reliable confidence scores, built for demanding uses such as visual defect detection and damage assessment.</td><td class="record-launch-date"><time datetime="2026-10-15">October 15, 2026</time></td></tr>
+          <tr><th scope="row">LFM2.5-24B-A2B</th><td class="record-launch-description">An open-weight reasoning model with 24B total parameters and 2B active per token, built for fast, private on-device agents.</td><td class="record-launch-date"><time datetime="2026-10-13">October 13, 2026</time></td></tr>
           <tr><th scope="row">d1-3B &amp; d1-omni-600M</th><td class="record-launch-description">Open-weight decision models for edge deployment: d1-3B handles text and images, while d1-omni-600M adds audio support.</td><td class="record-launch-date"><time datetime="2026-10-05">October 5, 2026</time></td></tr>
           <tr><th scope="row">d1</th><td class="record-launch-description">A decision model that returns probabilities for classification, routing, and scoring tasks without generating text.</td><td class="record-launch-date"><time datetime="2026-09-29">September 29, 2026</time></td></tr>
           <tr><th scope="row">LFM2.5-VL-DSpark</th><td class="record-launch-description">A lightweight draft model that accelerates LFM2.5 vision-language inference through speculative decoding while preserving output quality.</td><td class="record-launch-date"><time datetime="2026-09-24">September 24, 2026</time></td></tr>
@@ -182,7 +189,7 @@ share-img: "https://vivianamarquez.com/devrel/assets/liquidai/open-intelligence-
     </section>
 
 
-    <p class="record-footer-note">Last updated on October 12, 2026</p>
+    <p class="record-footer-note">Last updated on October 15, 2026</p>
   </div>
 </main>
 

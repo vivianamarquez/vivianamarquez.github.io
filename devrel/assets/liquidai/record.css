@@ -24,6 +24,7 @@ body { background: var(--record-paper); }
 .record-carousel-slide:has(.record-carousel-artwork) { width: var(--record-carousel-height); }
 .record-carousel-slide:has(.record-carousel-social) { width: calc(var(--record-carousel-height) * .90476); }
 .record-carousel-slide:has(.record-carousel-linkedin) { width: calc(var(--record-carousel-height) * 1.2619); }
+.record-carousel-slide.record-carousel-landscape { width: calc(var(--record-carousel-height) * 16 / 9); height: auto; aspect-ratio: 16 / 9; align-self: start; }
 .record-carousel-frame { height: 100%; background: var(--record-tint); overflow: hidden; }
 .record-carousel-frame .record-photo { height: 100%; border-radius: 0; }
 .record-carousel-frame img { display: block; width: 100%; height: 100%; object-fit: contain; border: 0; border-radius: 0; }
